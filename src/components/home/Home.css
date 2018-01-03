@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Gotam;
+    src: url('../../assets/font/GothamRounded-Light.otf');
+}
+@import url('https://fonts.googleapis.com/css?family=Lato|Pontano+Sans|Raleway');
+
+/*Slide*/
+.slide{
+    background-color: #232c3b;
+    /*background-image: url('https://images.pexels.com/photos/247791/pexels-photo-247791.png?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');*/
+    width:100%;
+    height:100vh;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cubierta{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.5);
+}
+.presentation{
+    width:500px;
+    flex-grow: 3;
+    color:white;
+    padding: 0% 5%;
+    font-size: 150%;
+}
+.presentation p{
+    color:#B0B6BE;
+}
+.slide_img{
+    width:300px;
+    flex-grow: 1;
+
+}
+.rp{
+     width:70%;
+    margin-left: 15%;
+ }
+.btn_start{
+    width:170px;
+    height:40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(40, 160, 228);
+    color:white;
+    font-size: 15px;
+}
+
+/*About*/
+.about{
+    width:100%;
+    height:auto;
+    /*background-color: #f4f5f9;*/
+}
+.logos, .about_text{
+    width:500px;
+    flex-grow: 1;
+    padding: 130px 40px;
+    font-size: 20px;
+    font-family: Gotam;
+    color:#455a64;
+}
+/*Process*/
+.process{
+    padding-top: 30px;
+}
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.step_box{
+    width: 80%;
+    margin: 0 auto;
+    height:100%;
+}
+.step{
+    width:400px;
+    flex-grow: 1;
+    padding: 5% 0%;
+    border-right:1px solid black ;
+
+}
+.step_dos{
+    width:400px;
+    flex-grow: 1;
+    padding: 5% 0%;
+    /*padding: 2% 0%;*/
+}
+.step_text{
+    width:70%;
+    margin-left: 20px;
+}
+.step_text_dos{
+    width:70%;
+    /*margin-top: 100px;*/
+    float: right;
+}
+.step_img{
+    width:400px;
+    flex-grow: 1;
+    padding: 5% 0%;
+
+}
+.step_img_dos{
+    border-right:1px solid black ;
+    width:400px;
+    flex-grow: 1;
+    padding: 5% 0%;
+}
+.step_img img, .step_img_dos img{
+    width:40%;
+    border-radius: 50%;
+    /*margin-top: 100px;*/
+    margin-left: 30%;
+}
+.step_img_dos img{
+    width:40%;
+    border-radius: 50%;
+    /*margin-top: 50px;*/
+    margin-left: 30%;
+}
+
+/*Comentarios*/
+.comment{
+    background-color: white;
+    height:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comentario{
+    width:70%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    line-height:200%;
+
+}
+.data_comment{
+    justify-content: center;
+
+}
+.photo_comment{
+    width:60px;
+    border-radius: 30px;
+    margin: 0px 20px;
+}
+.signo{
+    color:rgb(40, 160, 228);
+    font-size: 50px;
+}
+/*Porque Fixter*/
+.why{
+    background-color:#f4f5f9;
+    text-align: center;
+    padding: 30px 0;
+}
+.ask{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin: 80px auto 30px auto;
+}
+.option{
+    width:200px;
+    flex-grow: 1;
+
+}
+.option img{
+    width:60%;
+}
+
+/*Promo*/
+.promo{
+    background-color: #f4f5f9;
+    height:450px;
+    display: flex;
+    align-items: center;
+}
+.data_promo{
+    max-width:800px;
+    flex-grow: 1;
+    padding: 0 5%;
+    font-size: 22px;
+}
+.img_promo{
+    width:300px;
+    flex-grow: 1;
+}
+
+/*Blog*/
+.blog{
+    text-align: center;
+    background-color: #232c3b;
+    width:100%;
+    height:auto;
+    padding-bottom: 30px;
+}
+.blog h2{
+    padding: 30px 0;
+    margin: 0;
+    color:white;
+}
+#box_flex{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin:0 auto;
+}
+.uno{
+    display: flex;
+    flex-wrap: wrap;
+    width:200px;
+    flex-grow: 1;
+}
+.nota_uno{
+    background-color: white;
+    width:200px;
+    height:170px;
+    flex-grow: 1;
+    margin: 10px;
+    border-radius: 10px;
+}
+.nota_dos{
+    background-color: white;
+    width:200px;
+    height:360px;
+    flex-grow: 1;
+    margin: 10px;
+    border-radius: 10px;
+}
+.tres{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nota_tres{
+    width:473px;
+    height:140px;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}

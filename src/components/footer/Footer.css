@@ -1,0 +1,39 @@
+.footer{
+    background-color: #232c3b;
+    width:100%;
+    height:auto;
+}
+.line{
+    border-top:1px solid rgba(255,255,255,.5);
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_data, .redes{
+    margin: 0 30px;
+    width:300px;
+    flex-grow: 1;
+    color:white;
+}
+.fl{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.links{
+    margin-left: 80px;
+}
+.redes{
+    text-align: center;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+   justify-content: center;
+}
+.social span{
+    margin: 0 20px;
+}

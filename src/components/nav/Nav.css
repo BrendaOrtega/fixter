@@ -1,0 +1,27 @@
+.nav-bar{
+    background-color: #232c3b;
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.divider{
+
+    /*display: block;*/
+    width: 2px;
+    height: 11px;
+    border:none;
+    background: hsla(0,0%,100%,.2);
+    margin: auto 10px;
+}
+.logo{
+    color:hsla(0,0%,100%,.6);
+    padding-left: 20px;
+}
+.pestanas{
+    display: flex;
+    color:hsla(0,0%,100%,.6);
+    padding-right: 20px;
+}
