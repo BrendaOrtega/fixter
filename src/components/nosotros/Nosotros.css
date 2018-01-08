@@ -1,0 +1,89 @@
+.nosotros{
+    background-color: #232c3b;
+    text-align: center;
+}
+
+.present{
+    width:60%;
+    margin:0 auto;
+    padding-top: 120px;
+    color:white;
+    padding-bottom: 50px;
+}
+.present p{
+    color:#B0B6BE;
+    text-align: justify;
+}
+.present img{
+    width:30%;
+}
+
+/*Team*/
+.team h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.box_esclavos{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.esclavo{
+    width:300px;
+    height:280px;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.esclavo h3{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.esclavo p{
+    color:#B0B6BE;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.esclavo a{
+    color:#B0B6BE;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.img_team{
+    background-size: cover;
+    width:140px;
+    height:140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border:6px solid white;
+}
+
+.brendi{
+    background-image: url('https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/19059459_1314745991954119_2064217828501685113_n.jpg?_nc_eui2=v1%3AAeE2HPCsNKjQxgjmRgijQ4ZqB0ofdmb1648oUJpH301SNd1nZuowY7M_37VGZZ0I6sc3yYwZE14pyFyRWRea4p_D_mQ6G3BGoyx271PZCqap-g&oh=3faac590a1a950514de25b861496ff7d&oe=5AF704ED');
+
+}
+.bliss{
+    background-image: url('https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/26168101_10215257905618859_964158943380319359_n.jpg?oh=557d8f9c5f0dc7006f0b40dc714eb890&oe=5ABB0B8A');
+}
+.oswaldo{
+    background-image: url('../../assets/osw1-01.png');
+}
+.jlo{
+    background-image: url('../../assets/jlo1-01.png');
+}
+.dylan{
+    background-image: url('../../assets/dylan1-01.png');
+}
+.esclavo:hover .oswaldo{
+    background-image: url('../../assets/osw2-01.png');
+}
+.esclavo:hover .jlo{
+    background-image: url('../../assets/jlo2-01.png');
+}
+.esclavo:hover .dylan{
+    background-image: url('../../assets/dylan2-01.png');
+}

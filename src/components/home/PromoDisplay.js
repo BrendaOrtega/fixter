@@ -7,7 +7,7 @@ export const PromoDisplay = () => {
             <div>
             <div className="data_promo">
                 <h2>Learn something new today</h2>
-                <p>Ready to get started? egghead has many free community resource courses
+                <p style={{fontFamily:"Gotam"}}>Ready to get started? egghead has many free community resource courses
                     for you to start learning today. Create your free account and choose
                     something to learn. Creating a free account will allow you to view all
                     of the free courses egghead has to offer as well as tracking your progress

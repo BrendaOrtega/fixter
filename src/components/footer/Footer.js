@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 import FontAwesome from 'react-fontawesome';
-
+import {Link} from 'react-router-dom';
 
 class Footer extends Component {
     render() {
@@ -12,12 +12,18 @@ class Footer extends Component {
                         <h3>Sobre FixterGeek</h3>
                         <div className="fl">
                             <div>
-                                <p>Nosotros</p>
-                                <p>Team</p>
+                                <Link to="/nosotros">
+                                    <p>Nosotros</p>
+                                </Link>
+                                <Link to="/nosotros">
+                                    <p>Team</p>
+                                </Link>
                                 <p>Contacto</p>
                             </div>
                             <div className="links">
-                                <p>Bootcamp</p>
+                                <Link to="/bootcamp">
+                                    <p>Bootcamp</p>
+                                </Link>
                                 <p>Cursos</p>
                             </div>
                         </div>

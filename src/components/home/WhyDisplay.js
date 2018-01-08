@@ -4,27 +4,27 @@ export const WhyDisplay = () => {
 
     return (
         <div className="why">
-            <h2>We made easy</h2>
+            <h2 className="titulos">We made easy</h2>
             <div className="ask">
-                <div className="option">
+                <div className="razon ">
                     <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_ReactBeginners.png" alt=""/>
-                    <h4>Inscribete</h4>
-                    <p>Crea un perfil de usuario e inscribete al path que mas te guste</p>
+                    <h4>Registrate</h4>
+                    <p>Crea un perfil de usuario y ten acceso a cursos gratuitos.</p>
                 </div>
-                <div className="option">
+                <div className="razon">
                     <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_ReactBeginners.png" alt=""/>
-                    <h4>Inscribete</h4>
-                    <p>Crea un perfil de usuario e inscribete al path que mas te guste</p>
+                    <h4>Inscríbete</h4>
+                    <p>Asiste a un Bootcamp y aprende nuevas tecnologías en tan solo 8 semanas.</p>
                 </div>
-                <div className="option">
+                <div className="razon">
                     <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_ReactBeginners.png" alt=""/>
-                    <h4>Inscribete</h4>
-                    <p>Crea un perfil de usuario e inscribete al path que mas te guste</p>
+                    <h4>eLearning</h4>
+                    <p>Aprende con libertad, eligiendo la hora y lugar para tu aprendizaje</p>
                 </div>
-                <div className="option">
+                <div className="razon">
                     <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_ReactBeginners.png" alt=""/>
-                    <h4>Inscribete</h4>
-                    <p>Crea un perfil de usuario e inscribete al path que mas te guste</p>
+                    <h4>Comunidad</h4>
+                    <p>Se parte de nuestra comunidad (meetups, conferencias, posadas y mucho código).</p>
                 </div>
             </div>
         </div>

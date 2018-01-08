@@ -37,9 +37,7 @@ export const BlogDisplay = () => {
                     <div className="nota_tres">
 
                     </div>
-                    <div className="nota_tres">
 
-                    </div>
                 </div>
             </div>
         </div>

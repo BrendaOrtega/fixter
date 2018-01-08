@@ -1,0 +1,85 @@
+.card{
+    width:80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+
+
+}
+.card_info, .card_img{
+    width:400px;
+    flex-grow: 1;
+    min-height: 220px;
+
+}
+.card_info{
+    padding: 2%;
+}
+.card_info .name{
+    font-size: 60px;
+
+}
+.btn_camp{
+    width:170px;
+    height:40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(40, 160, 228);
+    color:white;
+    cursor: pointer;
+}
+
+.card_img{
+    background-image: url('https://images.pexels.com/photos/7075/people-office-group-team.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+}
+.etiqueta{
+    width:100%;
+    background-color: rgba(0,0,0,.3);
+    height:120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.etq{
+    width:150px;
+    flex-grow: 1;
+    color:white;
+    text-align: center;
+    padding-top: 5px;
+}
+.etq h3{
+    line-height: .7rem;
+    font-size: 17px;
+}
+.etq p{
+    font-size: 12px;
+    margin: 0;
+}
+@media(max-width: 440px){
+    .card_info{
+        padding: 3% 5%;
+    }
+    .card_info .name{
+        font-size: 35px;
+    }
+    .card_info .btn_camp{
+        width:120px;
+    }
+    .etq{
+        width:50px;
+    }
+    .etq h3{
+        font-size: 14px;
+    }
+    .etq p{
+        font-size: 10px;
+    }
+    .box_btn{
+        text-align: center;
+    }
+}

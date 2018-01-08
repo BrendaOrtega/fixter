@@ -2,6 +2,12 @@
     font-family: Gotam;
     src: url('../../assets/font/GothamRounded-Light.otf');
 }
+@font-face {
+    font-family: Nordica;
+    src: url('../../assets/font/NordicaHairline.otf');
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Pontano+Sans|Raleway');
 
 /*Slide*/
@@ -10,7 +16,10 @@
     /*background-image: url('https://images.pexels.com/photos/247791/pexels-photo-247791.png?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');*/
     width:100%;
     height:100vh;
+    font-family: 'Roboto', sans-serif;
+
 }
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +31,7 @@
     background-color: rgba(0,0,0,.5);
 }
 .presentation{
-    width:500px;
+    width:300px;
     flex-grow: 3;
     color:white;
     padding: 0% 5%;
@@ -30,6 +39,7 @@
 }
 .presentation p{
     color:#B0B6BE;
+    font-family: Nordica !important;
 }
 .slide_img{
     width:300px;
@@ -48,6 +58,7 @@
     background-color: rgb(40, 160, 228);
     color:white;
     font-size: 15px;
+    cursor: pointer;
 }
 
 /*About*/
@@ -56,28 +67,41 @@
     height:auto;
     /*background-color: #f4f5f9;*/
 }
+.titulos{
+
+    font-size: 37px;
+}
+.parrafo{
+    font-family: 'Gotam';
+
+}
+
 .logos, .about_text{
-    width:500px;
+    width:200px;
     flex-grow: 1;
     padding: 130px 40px;
     font-size: 20px;
-    font-family: Gotam;
-    color:#455a64;
+
 }
 /*Process*/
 .process{
     padding-top: 30px;
+    color:#455a64;
+
 }
 .subtitulo{
     font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .step_box{
     width: 80%;
     margin: 0 auto;
     height:100%;
+    font-family: 'Gotam';
+    color:black;
 }
 .step{
     width:400px;
@@ -160,6 +184,7 @@
     background-color:#f4f5f9;
     text-align: center;
     padding: 30px 0;
+    color:#455a64;
 }
 .ask{
     display: flex;
@@ -167,12 +192,14 @@
     width:80%;
     margin: 80px auto 30px auto;
 }
-.option{
+.razon{
     width:200px;
     flex-grow: 1;
+    font-family: 'Gotam';
+    padding: 0 2%;
 
 }
-.option img{
+.razon img{
     width:60%;
 }
 
@@ -238,13 +265,57 @@
 .tres{
     display: flex;
     flex-wrap: wrap;
-
+    width:100%;
 }
 .nota_tres{
-    width:473px;
+    width:500px;
     height:140px;
     flex-grow: 1;
     background-color: white;
     border-radius: 10px;
     margin: 10px;
+}
+
+@media(max-width: 440px){
+    .presentation{
+        font-size: 100%;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+    .rp{
+        width:50%;
+        margin-left: 25%;
+    }
+    .logos, .about_text{
+        padding: 30px 40px;
+    }
+    .step{
+        border: none;
+    }
+    .process {
+        display: none;
+    }
+    .comentario, .data_promo{
+        font-size: 18px;
+    }
+    .nota_uno{
+        background-color: white;
+        width:110px;
+        height:170px;
+        flex-grow: 1;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .nota_dos{
+        background-color: white;
+        width:300px;
+        height:120px;
+        flex-grow: 1;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .nota_tres{
+        display: none;
+    }
 }
