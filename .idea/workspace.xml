@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5823b5-57a7-40e1-ae98-1ad56a060a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/footer/Footer.css" afterPath="$PROJECT_DIR$/src/components/footer/Footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" afterPath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/perfil/Perfil.css" afterPath="$PROJECT_DIR$/src/components/perfil/Perfil.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/perfil/Perfil.js" afterPath="$PROJECT_DIR$/src/components/perfil/Perfil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,16 +72,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterDisplay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/login/RegisterDisplay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="89" lean-forward="false" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Contacto.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/contacto/Contacto.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,17 +96,27 @@
         <entry file="file://$PROJECT_DIR$/src/components/perfil/Perfil.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Perfil.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Perfil.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/perfil/Perfil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="470">
               <caret line="102" column="32" lean-forward="false" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nav.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -196,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/components/home/SlideDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/CardCamp/CardCamp.css" />
-        <option value="$PROJECT_DIR$/src/components/nav/Nav.css" />
         <option value="$PROJECT_DIR$/src/components/nav/NavDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/contacto/ContactoDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/contacto/Contacto.css" />
@@ -208,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/components/footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/components/perfil/Perfil.js" />
         <option value="$PROJECT_DIR$/src/components/perfil/Perfil.css" />
+        <option value="$PROJECT_DIR$/src/components/nav/Nav.css" />
       </list>
     </option>
   </component>
@@ -229,8 +226,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="23" />
+    <option name="x" value="168" />
+    <option name="y" value="160" />
     <option name="width" value="1089" />
     <option name="height" value="726" />
   </component>
@@ -294,10 +291,6 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="perfil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -314,6 +307,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nav" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,15 +406,15 @@
       <workItem from="1515454773483" duration="262000" />
       <workItem from="1515523422651" duration="2237000" />
       <workItem from="1515526827005" duration="8537000" />
-      <workItem from="1515615570389" duration="20368000" />
+      <workItem from="1515615570389" duration="20997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82226000" />
+    <option name="totallyTimeSpent" value="82855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="23" width="1089" height="726" extended-state="0" />
+    <frame x="168" y="160" width="1089" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25987145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -705,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/nav/NavDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -862,15 +851,23 @@
     <entry file="file://$PROJECT_DIR$/src/components/perfil/Perfil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/perfil/Perfil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="470">
           <caret line="102" column="32" lean-forward="false" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding />
         </state>
       </provider>

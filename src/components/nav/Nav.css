@@ -9,7 +9,6 @@
     z-index: 9999;
 }
 .divider{
-
     /*display: block;*/
     width: 2px;
     height: 11px;
@@ -25,6 +24,7 @@
     display: flex;
     color:hsla(0,0%,100%,.6);
     padding-right: 20px;
+   align-items: center;
 }
 .logo_fix{
     height:60px;
@@ -35,7 +35,6 @@
     width:120px;
     height:35px;
     cursor: pointer;
-    margin-top: 8px;
     border-radius: 17.5px;
     border: none;
 }
