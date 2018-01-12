@@ -9,6 +9,9 @@ import {BlogDisplay} from './BlogDisplay';
 import {ProcessDisplay} from './ProcessDisplay';
 
 class HomeContainer extends Component {
+    componentDidMount () {
+        window.scroll(0, 0)
+    }
     render() {
         return (
             <div>

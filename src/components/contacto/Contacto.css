@@ -1,0 +1,92 @@
+.contacto_img{
+    width:100%;
+    height:450px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #232c3b;
+}
+.contacto_img h2{
+    color:white;
+    font-size: 39px;
+    padding-top: 183px;
+    margin: 0;
+}
+.contacto_img p{
+    font-size: 15px;
+    color:white;
+}
+.datos_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin: 5% auto;
+}
+.datos_contacto span{
+    color:#263238;
+}
+.phone, .adress, .service{
+    width:300px;
+    flex-grow: 1;
+    text-align: center;
+}
+.datos_contacto h4{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.datos_contacto p{
+    font-size: 13px;
+    line-height:1.4rem;
+}
+.map, .formu{
+    width:70%;
+    margin: 0 auto;
+}
+.map{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.formu{
+    margin-top: 50px;
+    text-align: center;
+}
+.formu h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.contacto form input{
+    width:70%;
+    height:56px;
+    margin: 20px auto;
+    display: block;
+    padding: 6px 9px;
+    background-color: #f6f6f6;
+    border:none;
+
+
+}
+.contacto form textarea{
+
+    width:70%;
+    height:150px;
+    margin: 20px auto;
+    display: block;
+    padding: 6px 9px;
+    background-color: #f6f6f6;
+    border:none;
+
+
+}
+.btn_form{
+    width:20%;
+
+    background-color: #616161;
+    border-radius: 0;
+    border:transparent;
+    color:white;
+    padding: 3px 6px;
+}
+.cambio{
+    color:inherit !important;
+}

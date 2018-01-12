@@ -4,13 +4,13 @@
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-
+    min-height: 400px;
 
 }
 .card_info, .card_img{
     width:400px;
     flex-grow: 1;
-    min-height: 220px;
+
 
 }
 .card_info{
@@ -31,7 +31,6 @@
 }
 
 .card_img{
-    background-image: url('https://images.pexels.com/photos/7075/people-office-group-team.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -60,6 +59,10 @@
     font-size: 12px;
     margin: 0;
 }
+
+.aparece{
+    display: none;
+}
 @media(max-width: 440px){
     .card_info{
         padding: 3% 5%;
@@ -67,7 +70,7 @@
     .card_info .name{
         font-size: 35px;
     }
-    .card_info .btn_camp{
+    .btn_camp{
         width:120px;
     }
     .etq{
@@ -81,5 +84,24 @@
     }
     .box_btn{
         text-align: center;
+    }
+
+}
+@media(max-width: 325px){
+    .btn_camp{
+        width:100px;
+
+    }
+    .box_btn{
+        text-align: inherit;
+    }
+    .desaparece{
+        display: none;
+    }
+    .aparece{
+        display: inline-block;
+    }
+    .etq h3{
+        font-size: 12px;
     }
 }

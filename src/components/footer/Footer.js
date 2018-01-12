@@ -18,13 +18,17 @@ class Footer extends Component {
                                 <Link to="/nosotros">
                                     <p>Team</p>
                                 </Link>
-                                <p>Contacto</p>
+                                <Link to="/contacto">
+                                    <p>Contacto</p>
+                                </Link>
                             </div>
                             <div className="links">
                                 <Link to="/bootcamp">
                                     <p>Bootcamp</p>
                                 </Link>
-                                <p>Cursos</p>
+                                <Link to="/cursos">
+                                    <p>Cursos</p>
+                                </Link>
                             </div>
                         </div>
                     </div>

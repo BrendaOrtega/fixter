@@ -5,11 +5,11 @@ export const CommentDisplay = () => {
     return (
         <div className="comment">
             <div className="comentario">
-                <p><span className="signo">"</span>If you're a developer, you owe it to yourself to follow @eggheadio.
-                    Short, instructional videos on the technologies we use.<span className="signo">"</span></p>
+                <p><span className="signo">"</span>Aprender a programar, y convertirme en un desarrollador web era uno de mis principales objetivos
+                    al iniciar mi carrera profesional, afortunadamente en Fixter si pude iniciar mi camino como desarrollador profesional.<span className="signo">"</span></p>
                 <div className="flex data_comment">
-                    <img className="photo_comment" src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/20994218_1381080615320656_7100182021256733168_n.jpg?_nc_eui2=v1%3AAeFcx0MmUSyo_wsQZ_Vov_LLpjmjMUJiWpr1PXWUSMzCmHXB1aOhKWa6qB_Q1GJ2ik1k7fmNwTkXZZNvhSkgMRCajcPNS0vgfhc9y9yMCwSyQg&oh=06a732cbbcf08778c79814dec77ee1b4&oe=5AFAFEE6" alt=""/>
-                    <p className="name_comment">Brendi JS</p>
+                    <img className="photo_comment" src="https://scontent.fmex5-1.fna.fbcdn.net/v/t31.0-8/18891870_1543998225611670_8032322982945740932_o.jpg?oh=829371a2f4e415bd4c2325ebf9bc7809&oe=5AEF7A05" alt=""/>
+                    <p className="name_comment">Oswaldo Martinez</p>
                 </div>
             </div>
         </div>

@@ -1,4 +1,7 @@
 import React from 'react';
+import explorar from '../../assets/explorar.png';
+import aprende from '../../assets/aprende.png';
+import practica from '../../assets/practicaa.png';
 
 export const ProcessDisplay = () => {
 
@@ -15,13 +18,13 @@ export const ProcessDisplay = () => {
                         </div>
                     </div>
                     <div className="step_img">
-                        <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/20994218_1381080615320656_7100182021256733168_n.jpg?_nc_eui2=v1%3AAeFcx0MmUSyo_wsQZ_Vov_LLpjmjMUJiWpr1PXWUSMzCmHXB1aOhKWa6qB_Q1GJ2ik1k7fmNwTkXZZNvhSkgMRCajcPNS0vgfhc9y9yMCwSyQg&oh=06a732cbbcf08778c79814dec77ee1b4&oe=5AFAFEE6" alt=""/>
+                        <img src={explorar} alt=""/>
                     </div>
                 </div>
                 <div className="fl">
 
                     <div className="step_img_dos">
-                        <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/20994218_1381080615320656_7100182021256733168_n.jpg?_nc_eui2=v1%3AAeFcx0MmUSyo_wsQZ_Vov_LLpjmjMUJiWpr1PXWUSMzCmHXB1aOhKWa6qB_Q1GJ2ik1k7fmNwTkXZZNvhSkgMRCajcPNS0vgfhc9y9yMCwSyQg&oh=06a732cbbcf08778c79814dec77ee1b4&oe=5AFAFEE6" alt=""/>
+                        <img src={aprende} alt=""/>
                     </div>
                     <div className="step_dos">
                         <div className="step_text_dos">
@@ -44,7 +47,7 @@ export const ProcessDisplay = () => {
                         </div>
                     </div>
                     <div className="step_img">
-                        <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/20994218_1381080615320656_7100182021256733168_n.jpg?_nc_eui2=v1%3AAeFcx0MmUSyo_wsQZ_Vov_LLpjmjMUJiWpr1PXWUSMzCmHXB1aOhKWa6qB_Q1GJ2ik1k7fmNwTkXZZNvhSkgMRCajcPNS0vgfhc9y9yMCwSyQg&oh=06a732cbbcf08778c79814dec77ee1b4&oe=5AFAFEE6" alt=""/>
+                        <img src={practica} alt=""/>
                     </div>
                 </div>
             </div>

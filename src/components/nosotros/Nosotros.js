@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Nosotros.css';
 import {TeamDisplay} from './TeamDisplay';
+import geek from '../../assets/geek_2.png';
 
 class Nosotros extends Component {
     componentDidMount () {
@@ -11,7 +12,7 @@ class Nosotros extends Component {
             <div className="nosotros">
 
                 <div className="present">
-                    <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_ReactBeginners.png" alt=""/>
+                    <img src={geek} alt=""/>
                     <h2>Sobre FixterGeek...</h2>
                     <p>El FixterCamp es un bootcamp que busca enseñar a los curiosos
                         por el código los lenguajes de programación más modernos de

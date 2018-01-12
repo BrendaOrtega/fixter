@@ -44,12 +44,15 @@
 .slide_img{
     width:300px;
     flex-grow: 1;
+    text-align: center;
 
 }
-.rp{
-     width:70%;
-    margin-left: 15%;
- }
+.pre{
+    width:350px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
 .btn_start{
     width:170px;
     height:40px;
@@ -65,28 +68,43 @@
 .about{
     width:100%;
     height:auto;
+
     /*background-color: #f4f5f9;*/
 }
 .titulos{
-
+    font-family: 'Roboto', sans-serif;
     font-size: 37px;
 }
 .parrafo{
     font-family: 'Gotam';
 
 }
-
+.logos_img{
+    text-align: center;
+}
+.robot{
+    width:440px;
+    height:500px;
+}
 .logos, .about_text{
-    width:200px;
+    width:400px;
     flex-grow: 1;
-    padding: 130px 40px;
     font-size: 20px;
+    padding: 50px 0;
+}
+.about_text{
+    padding: 130px 40px;
+}
+.rp{
+    width:130px;
+    height:130px;
+    flex-grow: 1;
 
 }
 /*Process*/
 .process{
     padding-top: 30px;
-    color:#455a64;
+
 
 }
 .subtitulo{
@@ -100,14 +118,14 @@
     width: 80%;
     margin: 0 auto;
     height:100%;
-    font-family: 'Gotam';
+    font-family: 'Roboto', sans-serif;
     color:black;
 }
 .step{
     width:400px;
     flex-grow: 1;
     padding: 5% 0%;
-    border-right:1px solid black ;
+    /*border-right:1px solid black ;*/
 
 }
 .step_dos{
@@ -120,6 +138,13 @@
     width:70%;
     margin-left: 20px;
 }
+.step_text h3, .step_text_dos h3{
+    font-family: 'Roboto', sans-serif;
+
+}
+.step_text p, .step_text_dos p{
+    font-family: 'Gotam';
+}
 .step_text_dos{
     width:70%;
     /*margin-top: 100px;*/
@@ -128,35 +153,38 @@
 .step_img{
     width:400px;
     flex-grow: 1;
-    padding: 5% 0%;
+    /*padding: 5% 0%;*/
 
 }
 .step_img_dos{
-    border-right:1px solid black ;
+    /*border-right:1px solid black ;*/
     width:400px;
     flex-grow: 1;
-    padding: 5% 0%;
+    /*padding: 5% 0%;*/
 }
 .step_img img, .step_img_dos img{
-    width:40%;
-    border-radius: 50%;
+    width:100%;
+    /*border-radius: 50%;*/
     /*margin-top: 100px;*/
-    margin-left: 30%;
+    /*margin-left: 30%;*/
 }
 .step_img_dos img{
-    width:40%;
-    border-radius: 50%;
+    width:100%;
+    /*border-radius: 50%;*/
     /*margin-top: 50px;*/
-    margin-left: 30%;
+    /*margin-left: 30%;*/
 }
 
 /*Comentarios*/
 .comment{
     background-color: white;
-    height:350px;
+    min-height:350px;
     display: flex;
+    padding: 40px 0;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 .comentario{
     width:70%;
@@ -165,6 +193,9 @@
     text-align: center;
     line-height:200%;
 
+}
+.name_comment{
+    font-size: 15px;
 }
 .data_comment{
     justify-content: center;
@@ -192,35 +223,54 @@
     width:80%;
     margin: 80px auto 30px auto;
 }
-.razon{
-    width:200px;
-    flex-grow: 1;
-    font-family: 'Gotam';
-    padding: 0 2%;
 
+.cuadro{
+    width:170px;
+    flex-grow: 1;
+
+    padding: 0 2%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 10px;
 }
-.razon img{
-    width:60%;
+.cuadro p{
+    font-family: 'Gotam';
+}
+.cuadro img{
+    width:80%;
 }
 
 /*Promo*/
 .promo{
     background-color: #f4f5f9;
-    height:450px;
+    height:auto;
+    padding: 60px 0;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .data_promo{
-    max-width:800px;
+    max-width:700px;
     flex-grow: 1;
     padding: 0 5%;
-    font-size: 22px;
+    font-size: 20px;
 }
 .img_promo{
     width:300px;
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.diploma{
+   width:250px;
+}
+/*.flex_promo{*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+    /*width:100%;*/
+/*}*/
 /*Blog*/
 .blog{
     text-align: center;
@@ -275,7 +325,70 @@
     border-radius: 10px;
     margin: 10px;
 }
+.blog_uno{
+    background-image: url('../../assets/celery.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.blog_dos{
+    background-image: url('../../assets/blog_dos.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.blog_tres{
+    background-image: url('../../assets/blog_tres.gif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.blog_cuatro{
+    background-image: url('../../assets/blog_cuatro.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.blog_cinco{
+    background-image: url('../../assets/blog_cinco.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.blog_seis{
+    background-image: url('../../assets/blog_seis.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.blog_siete{
+    background-image: url('../../assets/blog_siete.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.etiq{
+    width:100%;
+    height:auto;
+    background-color: rgba(255,255,255,.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2px 0;
+    cursor: pointer;
+}
+.etiq p{
+    width:100%;
+    margin: 0;
 
+
+}
 @media(max-width: 440px){
     .presentation{
         font-size: 100%;
@@ -283,11 +396,22 @@
         padding-top: 50px;
 
     }
+    .pre{
+        width:150px;
+        padding-top: 0;
+    }
+    .robot{
+        width:250px;
+        height:300px;
+    }
     .rp{
         width:50%;
         margin-left: 25%;
     }
-    .logos, .about_text{
+    .logos{
+        display: none;
+    }
+     .about_text{
         padding: 30px 40px;
     }
     .step{
@@ -296,7 +420,10 @@
     .process {
         display: none;
     }
-    .comentario, .data_promo{
+    .comentario{
+        font-size: 16px;
+    }
+    .data_promo{
         font-size: 18px;
     }
     .nota_uno{
@@ -317,5 +444,10 @@
     }
     .nota_tres{
         display: none;
+    }
+}
+@media(max-width: 325px){
+    .nota_dos{
+        width:240px;
     }
 }

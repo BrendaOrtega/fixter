@@ -66,7 +66,26 @@ class Login extends Component {
             .catch(e=>console.log(e));
 
     }
+    loginGoogle = () => {
+        var provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().signInWithPopup(provider).then(function(result) {
+            console.log(result.user)
+            localStorage.setItem(result);
+            this.props.history.push("/perfil");
 
+        }).catch(function(error) {
+
+        });
+    }
+    loginFacebook = () => {
+        var provider = new firebase.auth.FacebookAuthProvider();
+
+        firebase.auth().signInWithPopup(provider).then(function(result) {
+            console.log(result.user)
+        }).catch(function(error) {
+
+        });
+    }
 
     changeRegistro = () => {
         this.setState({registro:true});
@@ -97,6 +116,8 @@ class Login extends Component {
                     />
                     :
                     <LoginDisplay
+                        loginFacebook={this.loginFacebook}
+                        loginGoogle={this.loginGoogle}
                         changeRegistro={this.changeRegistro}
                         mostrar={this.state.mostrar}
                         toggleMostrar = {this.toggleMostrar}

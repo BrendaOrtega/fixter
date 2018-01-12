@@ -2,16 +2,16 @@ import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import './Login.css';
 
-export const LoginDisplay = ({mostrar, toggleMostrar, saveInput, onSubmit, error, changeRegistro}) => (
+export const LoginDisplay = ({mostrar, toggleMostrar, saveInput, onSubmit, error, changeRegistro, loginGoogle, loginFacebook}) => (
     <div className="login">
         <div className="card_login">
             <h3>Inicia sesión</h3>
             <h1>{error}</h1>
             <div className="redes_login">
-                <div className="circle_f">
+                <div className="circle_f" onClick={loginFacebook}>
                     <FontAwesome name="facebook" />
                 </div>
-                <div className="circle_g">
+                <div className="circle_g" onClick={loginGoogle}>
                     <FontAwesome name="google" />
                 </div>
             </div>

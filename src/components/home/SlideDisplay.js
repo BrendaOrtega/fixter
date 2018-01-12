@@ -1,4 +1,5 @@
 import React from 'react';
+import nerd from '../../assets/nerd_pag.png';
 
 export const SlideDisplay = () => {
 
@@ -12,10 +13,8 @@ export const SlideDisplay = () => {
                     <button className="btn_start">Empieza a Aprender</button>
                </div>
                <div className="slide_img">
-                    <img className="rp" src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_ReactBeginners.png" alt=""/>
+                    <img className="pre" src={nerd} alt=""/>
                 </div>
-
-
            </div>
         </div>
     );

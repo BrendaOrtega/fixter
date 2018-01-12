@@ -41,13 +41,13 @@ class Aply extends Component {
                                         <option value="Backend-Path Frebrero">Backend-Path</option>
                                         <option value="Introducción a la programación Febrero">Introducción a la programación </option>
                                     </optgroup>
-                                    <optgroup  label='Julio-Agosto'>
-                                        <option value="Mobile-Path Julio">Mobile-Path</option>
-                                        <option value="Introducción a la programación Julio">Introducción a la programación </option>
+                                    <optgroup  label='Mayo-Julio'>
+                                        <option value="Mobile-Path Mayo">Mobile-Path</option>
+                                        <option value="FullStack Mayo">FullStack-Path</option>
                                     </optgroup>
-                                    <optgroup  label='Octubre-Diciembre'>
-                                        <option value="Frontend-Path Octubre">Frontend-Path </option>
-                                        <option value="Backend-Path Octubre">Backend-Path</option>
+                                    <optgroup  label='Septiembre-Noviembre'>
+                                        <option value="Frontend-Path Septiembre">Frontend-Path </option>
+                                        <option value="Backend-Path Septiembre">Backend-Path</option>
                                     </optgroup>
                                 </select>
                             </div>
