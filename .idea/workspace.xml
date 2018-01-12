@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5823b5-57a7-40e1-ae98-1ad56a060a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CardCamp/CardCamp.css" afterPath="$PROJECT_DIR$/src/components/CardCamp/CardCamp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" afterPath="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/bootcamp/Aply.css" afterPath="$PROJECT_DIR$/src/components/bootcamp/Aply.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/contacto/Contacto.css" afterPath="$PROJECT_DIR$/src/components/contacto/Contacto.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/contacto/ContactoDisplay.js" afterPath="$PROJECT_DIR$/src/components/contacto/ContactoDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/footer/Footer.css" afterPath="$PROJECT_DIR$/src/components/footer/Footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/login/RegisterDisplay.js" afterPath="$PROJECT_DIR$/src/components/login/RegisterDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav/NavDisplay.js" afterPath="$PROJECT_DIR$/src/components/nav/NavDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/perfil/Perfil.css" afterPath="$PROJECT_DIR$/src/components/perfil/Perfil.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/perfil/Perfil.js" afterPath="$PROJECT_DIR$/src/components/perfil/Perfil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/Home.css" afterPath="$PROJECT_DIR$/src/components/home/Home.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,23 +20,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bootcamp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/bootcamp/Bootcamp.js">
+      <file leaf-file-name="Home.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavDisplay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/nav/NavDisplay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="530">
+              <caret line="456" column="16" lean-forward="false" selection-start-line="456" selection-start-column="16" selection-end-line="456" selection-end-column="16" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1515787445000" expanded="true" signature="1464:1466" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/bootcamp/Aply.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-300">
-              <caret line="31" column="200" lean-forward="true" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="200" />
+              <caret line="31" column="200" lean-forward="false" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="200" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -119,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aply.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Aply.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/bootcamp/Aply.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="1430">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogDisplay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/BlogDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="65" column="101" lean-forward="false" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -201,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/components/home/HomeContainer.js" />
         <option value="$PROJECT_DIR$/src/components/bootcamp/Bootcamp.css" />
         <option value="$PROJECT_DIR$/src/components/home/PromoDisplay.js" />
-        <option value="$PROJECT_DIR$/src/components/home/Home.css" />
         <option value="$PROJECT_DIR$/src/components/cursos/Cursos.css" />
         <option value="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" />
         <option value="$PROJECT_DIR$/src/components/login/Login.css" />
@@ -222,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/components/contacto/Contacto.css" />
         <option value="$PROJECT_DIR$/src/components/footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/components/bootcamp/Aply.css" />
+        <option value="$PROJECT_DIR$/src/components/home/Home.css" />
       </list>
     </option>
   </component>
@@ -327,29 +316,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="footer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,12 +412,12 @@
       <workItem from="1515454773483" duration="262000" />
       <workItem from="1515523422651" duration="2237000" />
       <workItem from="1515526827005" duration="8537000" />
-      <workItem from="1515615570389" duration="19156000" />
+      <workItem from="1515615570389" duration="19334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81014000" />
+    <option name="totallyTimeSpent" value="81192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="145" y="47" width="1089" height="726" extended-state="0" />
@@ -533,7 +500,7 @@
         <state relative-caret-position="1095">
           <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
           <folding>
-            <marker date="1515705977000" expanded="true" signature="1464:1466" ph="..." />
+            <marker date="1515787445000" expanded="true" signature="1464:1466" ph="..." />
           </folding>
         </state>
       </provider>
@@ -612,14 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="52" column="78" lean-forward="false" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/BlogDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="65" column="101" lean-forward="false" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
           <folding />
         </state>
       </provider>
@@ -735,17 +694,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="74" column="15" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <marker date="1515705977000" expanded="true" signature="1464:1466" ph="..." />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,7 +712,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -805,7 +754,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -875,7 +824,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/bootcamp/Aply.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
-          <caret line="31" column="200" lean-forward="true" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="200" />
+          <caret line="31" column="200" lean-forward="false" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="200" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -908,9 +857,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/bootcamp/Aply.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="1430">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/BlogDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="65" column="101" lean-forward="false" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="456" column="16" lean-forward="false" selection-start-line="456" selection-start-column="16" selection-end-line="456" selection-end-column="16" />
+          <folding>
+            <marker date="1515787445000" expanded="true" signature="1464:1466" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

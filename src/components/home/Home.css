@@ -436,7 +436,7 @@
     }
     .nota_dos{
         background-color: white;
-        width:300px;
+        width:320px;
         height:120px;
         flex-grow: 1;
         margin: 10px;
@@ -446,8 +446,15 @@
         display: none;
     }
 }
+@media(max-width: 375px){
+    .nota_dos{
+        width:280px;
+    }
+
+}
 @media(max-width: 325px){
     .nota_dos{
         width:240px;
     }
+
 }
