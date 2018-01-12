@@ -1,16 +1,4 @@
 import React from 'react';
-import react from '../../assets/react.png';
-import angular from '../../assets/angular.png';
-import css from '../../assets/css3.png';
-import ember from '../../assets/ember.png';
-import node from '../../assets/node.png';
-import python from '../../assets/icono1.png';
-import rails from '../../assets/ruby.png';
-import django from '../../assets/django.png';
-import fire from '../../assets/firepng.png';
-import swift from '../../assets/swift.png';
-import android from '../../assets/android.png';
-import unity from '../../assets/unity.png';
 import robot from '../../assets/robotino.png';
 
 export const AboutDisplay = () => {

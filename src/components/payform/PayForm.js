@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './PayForm.css';
-import FontAwesome from 'react-fontawesome';
 
 class PayForm extends Component {
     componentDidMount () {

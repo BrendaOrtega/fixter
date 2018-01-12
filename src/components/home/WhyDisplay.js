@@ -1,8 +1,5 @@
 import React from 'react';
-import uno from '../../assets/libreta.png';
-import dos from '../../assets/lap.png';
-import tres from '../../assets/laptop.png';
-import cuatro from '../../assets/com.png';
+
 
 export const WhyDisplay = () => {
 

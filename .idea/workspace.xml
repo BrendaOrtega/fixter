@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5823b5-57a7-40e1-ae98-1ad56a060a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" afterPath="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/AboutDisplay.js" afterPath="$PROJECT_DIR$/src/components/home/AboutDisplay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/WhyDisplay.js" afterPath="$PROJECT_DIR$/src/components/home/WhyDisplay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/payform/PayForm.js" afterPath="$PROJECT_DIR$/src/components/payform/PayForm.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,63 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1515787445000" expanded="true" signature="1464:1466" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/login/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginDisplay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/login/LoginDisplay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/login/Login.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Nosotros.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/nosotros/Nosotros.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
               <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contacto.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/contacto/Contacto.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -112,11 +63,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nav.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Nav.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutDisplay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/AboutDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhyDisplay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/WhyDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CursosConteiner.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/cursos/CursosConteiner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayForm.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="103" column="28" lean-forward="false" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -167,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/nav/NavContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/payform/PayForm.js" />
         <option value="$PROJECT_DIR$/src/components/payform/PayForm.css" />
         <option value="$PROJECT_DIR$/src/components/bootcamp/Aply.js" />
         <option value="$PROJECT_DIR$/src/components/bootcamp/Bootcamp.js" />
@@ -176,15 +178,12 @@
         <option value="$PROJECT_DIR$/src/components/home/BlogDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/home/CommentDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/home/ProcessDisplay.js" />
-        <option value="$PROJECT_DIR$/src/components/home/AboutDisplay.js" />
-        <option value="$PROJECT_DIR$/src/components/home/WhyDisplay.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/home/HomeContainer.js" />
         <option value="$PROJECT_DIR$/src/components/bootcamp/Bootcamp.css" />
         <option value="$PROJECT_DIR$/src/components/home/PromoDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/cursos/Cursos.css" />
-        <option value="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" />
         <option value="$PROJECT_DIR$/src/components/login/LoginDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/login/Login.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
@@ -205,6 +204,10 @@
         <option value="$PROJECT_DIR$/src/components/perfil/Perfil.js" />
         <option value="$PROJECT_DIR$/src/components/perfil/Perfil.css" />
         <option value="$PROJECT_DIR$/src/components/nav/Nav.css" />
+        <option value="$PROJECT_DIR$/src/components/home/AboutDisplay.js" />
+        <option value="$PROJECT_DIR$/src/components/home/WhyDisplay.js" />
+        <option value="$PROJECT_DIR$/src/components/payform/PayForm.js" />
+        <option value="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" />
       </list>
     </option>
   </component>
@@ -226,8 +229,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="160" />
+    <option name="x" value="334" />
+    <option name="y" value="47" />
     <option name="width" value="1089" />
     <option name="height" value="726" />
   </component>
@@ -310,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nav" />
+              <option name="myItemId" value="cursos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,15 +409,15 @@
       <workItem from="1515454773483" duration="262000" />
       <workItem from="1515523422651" duration="2237000" />
       <workItem from="1515526827005" duration="8537000" />
-      <workItem from="1515615570389" duration="20997000" />
+      <workItem from="1515615570389" duration="21141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82855000" />
+    <option name="totallyTimeSpent" value="82999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="160" width="1089" height="726" extended-state="0" />
+    <frame x="334" y="47" width="1089" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25987145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -538,20 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="83" column="57" lean-forward="false" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="28" lean-forward="false" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/nosotros/Nosotros.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -585,22 +574,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/WhyDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/AboutDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,16 +618,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cursos/CursosConteiner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,6 +831,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/AboutDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/WhyDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="103" column="28" lean-forward="false" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cursos/CursosConteiner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>

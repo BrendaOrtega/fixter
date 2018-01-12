@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './Cursos.css';
-import {Link} from 'react-router-dom';
-import {CardCampDisplay} from '../CardCamp/CardCampDisplay';
 import cursos from '../../assets/cursos.png';
 
 class Cursos extends Component {
