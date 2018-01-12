@@ -20,7 +20,7 @@ export const RegisterDisplay = ({mostrar, toggleMostrar, saveRegistro, onSubmit,
             <div className="log_email">
                 <form onSubmit={onSubmit} >
                     <p>Tu email</p>
-                    <input className="input" name="email" type="text" value={email} onChange={saveRegistro} />
+                    <input className="input" name="email" placeholder="ejemplo@fixter.org"  type="text" value={email} onChange={saveRegistro} />
 
                     <p>Tu contrasena</p>
                     <input className="input" name="pass" value={pass} onChange={saveRegistro}  placeholder="Password" type={mostrar ? "text" : "password"}/>
