@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5823b5-57a7-40e1-ae98-1ad56a060a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" afterPath="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/AboutDisplay.js" afterPath="$PROJECT_DIR$/src/components/home/AboutDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/WhyDisplay.js" afterPath="$PROJECT_DIR$/src/components/home/WhyDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/payform/PayForm.js" afterPath="$PROJECT_DIR$/src/components/payform/PayForm.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/android.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/angular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/com.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/css3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/diploma_dos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/django.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/ember.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/embercito.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/firepng.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/herram-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/htm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/icono1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/lap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/laptop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/libreta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/node.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/plat_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/react.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/ruby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/swift.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/unity.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" afterPath="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,26 +41,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Nosotros.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/nosotros/Nosotros.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/footer/Footer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Perfil.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/perfil/Perfil.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/home/WhyDisplay.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -105,12 +103,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CursosConteiner.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CursosConteiner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/cursos/CursosConteiner.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardCamp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CardCamp/CardCamp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardCampDisplay.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/components/contacto/Contacto.js" />
         <option value="$PROJECT_DIR$/src/components/footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/components/home/SlideDisplay.js" />
-        <option value="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/CardCamp/CardCamp.css" />
         <option value="$PROJECT_DIR$/src/components/nav/NavDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/contacto/ContactoDisplay.js" />
@@ -208,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/components/home/WhyDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/payform/PayForm.js" />
         <option value="$PROJECT_DIR$/src/components/cursos/CursosConteiner.js" />
+        <option value="$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js" />
       </list>
     </option>
   </component>
@@ -229,8 +251,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="334" />
-    <option name="y" value="47" />
+    <option name="x" value="106" />
+    <option name="y" value="37" />
     <option name="width" value="1089" />
     <option name="height" value="726" />
   </component>
@@ -313,7 +335,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cursos" />
+              <option name="myItemId" value="CardCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temarios" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,15 +471,15 @@
       <workItem from="1515454773483" duration="262000" />
       <workItem from="1515523422651" duration="2237000" />
       <workItem from="1515526827005" duration="8537000" />
-      <workItem from="1515615570389" duration="21141000" />
+      <workItem from="1515615570389" duration="22533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82999000" />
+    <option name="totallyTimeSpent" value="84391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="47" width="1089" height="726" extended-state="0" />
+    <frame x="106" y="37" width="1089" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25987145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -595,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardCamp/CardCamp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home/PromoDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -646,14 +700,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +892,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/home/WhyDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -862,7 +908,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/payform/PayForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -874,6 +920,26 @@
         <state relative-caret-position="15">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CardCamp/CardCamp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CardCamp/CardCampDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
