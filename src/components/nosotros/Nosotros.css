@@ -87,3 +87,11 @@
 .esclavo:hover .dylan{
     background-image: url('../../assets/dylan2-01.png');
 }
+@media(max-width: 450px){
+    .present{
+        width:80%;
+    }
+    .present img{
+        width:50%;
+    }
+}

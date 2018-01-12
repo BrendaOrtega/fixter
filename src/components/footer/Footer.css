@@ -2,6 +2,7 @@
     background-color: #232c3b;
     width:100%;
     height:auto;
+    padding-bottom: 15px;
 }
 .line{
     border-top:1px solid rgba(255,255,255,.5);

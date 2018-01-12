@@ -18,7 +18,6 @@ class Perfil extends Component {
                             <div className="user_data">
                                 <h2>Brendi JS</h2>
                                 <p>brendi@js.com</p>
-
                                 <hr className="division"/>
                                 <p>BrendiJs te uniste a Fixter </p>
                                 <p>desde hace 2 anos</p>
