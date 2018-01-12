@@ -20,8 +20,9 @@
 }
 .data_card{
     background-color: white;
-    height:65vh;
+    height:auto;
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 .data_suscript{
     background-color: white;

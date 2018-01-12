@@ -6,7 +6,7 @@ export const RegisterDisplay = ({mostrar, toggleMostrar, saveRegistro, onSubmit,
 
     <div className="login">
         <div className="card_login">
-            <h3>Iniciar sesiÃ³n</h3>
+            <h3>Iniciar sesión</h3>
             <h2>{error}</h2>
             <div className="redes_login">
                 <div className="circle_f">

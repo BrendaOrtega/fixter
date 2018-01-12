@@ -14,8 +14,7 @@ export const CardCampDisplay = ({nombre, descript, imagen, fecha, precio}) => {
                 <p>{descript}</p>
                 </div>
                 <div className="box_btn">
-                    <button className="btn_camp desaparece">Descargar Temario</button>
-                    <button className="btn_camp aparece"><FontAwesome name="download" /> Temario</button>
+                    <button className="btn_camp "><FontAwesome name="download" /> Temario</button>
                     <Link to="/aply">
                         <button style={{marginLeft:"20px"}} className="btn_camp">Inscribirme</button>
                     </Link>

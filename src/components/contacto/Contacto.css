@@ -1,14 +1,14 @@
 .contacto_img{
     width:100%;
-    height:450px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    height:400px;
     background-color: #232c3b;
+    padding-top: 120px;
+    text-align: center;
 }
 .contacto_img h2{
     color:white;
     font-size: 39px;
-    padding-top: 183px;
+    padding-top: 33px;
     margin: 0;
 }
 .contacto_img p{
@@ -89,4 +89,15 @@
 }
 .cambio{
     color:inherit !important;
+}
+.cover img{
+    width:150px;
+    margin: 0 auto;
+
+}
+
+@media(max-width: 440px){
+    .contacto form input, .contacto form textarea{
+        width:90%;
+    }
 }

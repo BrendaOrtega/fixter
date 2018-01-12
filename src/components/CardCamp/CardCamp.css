@@ -25,6 +25,7 @@
     height:40px;
     border-radius: 20px;
     border:none;
+    font-size: 15px;
     background-color: rgb(40, 160, 228);
     color:white;
     cursor: pointer;
@@ -60,9 +61,6 @@
     margin: 0;
 }
 
-.aparece{
-    display: none;
-}
 @media(max-width: 440px){
     .card_info{
         padding: 3% 5%;
@@ -95,12 +93,7 @@
     .box_btn{
         text-align: inherit;
     }
-    .desaparece{
-        display: none;
-    }
-    .aparece{
-        display: inline-block;
-    }
+
     .etq h3{
         font-size: 12px;
     }

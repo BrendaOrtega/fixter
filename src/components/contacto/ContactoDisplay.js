@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contacto.css';
 import FontAwesome from 'react-fontawesome';
+import antena from '../../assets/antena.png';
 
 export const ContactoDisplay = () => {
 
@@ -8,6 +9,7 @@ export const ContactoDisplay = () => {
         <div className="contacto">
             <div className="contacto_img">
                 <div  className="cover">
+                    <img src={antena} alt=""/>
                     <h2>Contactanos</h2>
                     <p>Te responderemos lo antes posible</p>
                 </div>
@@ -35,9 +37,9 @@ export const ContactoDisplay = () => {
             <div className="formu">
                 <h3>Formulario de Contacto</h3>
                 <form>
-                    <input type="text" placeholder="Nombre"/>
-                    <input type="text" placeholder="E-mail"/>
-                    <textarea type="text" placeholder="Mnesaje"/>
+                    <input type="text" placeholder="Nombre" required data-validation-required-message="Porfavor ingresa tu nombre"/>
+                    <input type="text" placeholder="E-mail" required data-validation-required-message="Porfavor ingresa tu e-mail"/>
+                    <textarea type="text" placeholder="Mensaje" required data-validation-required-message="Ingresa aquí tu mensaje, duda o comentario"/>
                     <button className="btn_start">Enviar</button>
                 </form>
             </div>

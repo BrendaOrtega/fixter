@@ -40,11 +40,10 @@
     border: none;
 }
 
-.log{
-   padding-top: 16px;
-}
+
 @media(max-width: 440px){
-    .pestanas{
+    .less{
         display: none;
     }
+
 }

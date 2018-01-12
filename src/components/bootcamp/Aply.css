@@ -99,9 +99,7 @@ textarea{
     color: #555;
 
 }
-.inp:active{
-    border:outset 2px #7eb7b4;
-}
+
 .btn{
     border:solid 1px white;
     color:white;

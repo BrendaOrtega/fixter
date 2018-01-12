@@ -13,7 +13,9 @@ export const NavDisplay = ({isLogged, signOut}) => {
                 </Link>
             </div>
             <div className="pestanas">
-                <p>Learn Now</p>
+                <Link to="/bootcamp">
+                    <span className="less">Learn Now</span>
+                </Link>
                 <hr className="divider"/>
 
                 {!isLogged ?
