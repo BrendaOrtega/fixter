@@ -2,6 +2,7 @@ import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import {Link} from 'react-router-dom';
 import './CardCamp.css';
+import temario from '../../assets/temarios/temario.pdf';
 
 
 export const CardCampDisplay = ({nombre, descript, imagen, fecha, precio}) => {
@@ -14,9 +15,10 @@ export const CardCampDisplay = ({nombre, descript, imagen, fecha, precio}) => {
                 <p>{descript}</p>
                 </div>
                 <div className="box_btn">
-                    <Link to="/assets/temarios/temario.pdf">
-                        <button className="btn_camp "><FontAwesome name="download" /> Temario</button>
-                    </Link>
+                    <a href={temario} target="_blank">
+
+                    <button className="btn_camp "><FontAwesome name="download" /> Temario</button>
+                    </a>
                     <Link to="/aply">
                         <button style={{marginLeft:"20px"}} className="btn_camp">Inscribirme</button>
                     </Link>

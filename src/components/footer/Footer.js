@@ -35,9 +35,15 @@ class Footer extends Component {
                     <div className="redes">
                         <h3>Work together</h3>
                         <div className="social">
-                            <FontAwesome name="facebook-square" size="2x"/>
-                            <FontAwesome name="twitter-square" size="2x"/>
-                            <FontAwesome name="instagram" size="2x"/>
+                            <Link to="https://www.facebook.com/fixterme/" target="blank">
+                                <FontAwesome name="facebook-square" size="2x"/>
+                            </Link>
+                            <Link to="https://twitter.com/FixTeR_" target="blank">
+                                <FontAwesome name="twitter-square" size="2x"/>
+                            </Link>
+                            <Link to="https://www.instagram.com/fixtergeek/?hl=es-la" target="blank">
+                                <FontAwesome name="instagram" size="2x"/>
+                            </Link>
                         </div>
                     </div>
                 </div>
