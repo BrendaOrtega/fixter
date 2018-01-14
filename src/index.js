@@ -6,13 +6,19 @@ import {BrowserRouter} from 'react-router-dom';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import registerServiceWorker from './registerServiceWorker';
 
+//redux
+import configureStore from './redux/store/store';
+import {Provider} from 'react-redux';
+
+export const store = configureStore();
 
 const WithRouter = () => (
 
-
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+    <Provider store={store}>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </Provider>
 
 );
 

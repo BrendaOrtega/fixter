@@ -3,6 +3,14 @@ import {LoginDisplay} from './LoginDisplay';
 import {RegisterDisplay} from './RegisterDisplay';
 import './Login.css';
 import firebase from '../../firebase';
+//redux
+import {connect} from 'react-redux';
+import {loginAction} from '../../redux/actions/userAction';
+
+
+const codigos = {
+        "auth/wrong-password":"Tu password está mal"
+};
 
 class Login extends Component {
     state= {
@@ -61,29 +69,37 @@ class Login extends Component {
             .then(usuario=>{
                 let user = JSON.stringify(usuario);
                 localStorage.setItem("user", user);
+                this.props.loginAction(user);
                 this.props.history.push("/perfil");
             })
-            .catch(e=>console.log(e));
+            .catch(e=>{
+                console.log(e);
+                alert(codigos[e.code]);
+            });
 
-    }
+    };
     loginGoogle = () => {
-        var provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().signInWithPopup(provider).then(function(result) {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().signInWithPopup(provider).then(result=> {
             console.log(result.user)
-            localStorage.setItem(result);
+            localStorage.setItem("user",JSON.stringify(result.user));
+            this.props.loginAction(result.user);
             this.props.history.push("/perfil");
 
         }).catch(function(error) {
 
         });
-    }
+    };
     loginFacebook = () => {
-        var provider = new firebase.auth.FacebookAuthProvider();
+        const provider = new firebase.auth.FacebookAuthProvider();
 
-        firebase.auth().signInWithPopup(provider).then(function(result) {
-            console.log(result.user)
+        firebase.auth().signInWithPopup(provider).then(result=> {
+            console.log(result.user);
+            localStorage.setItem("user",JSON.stringify(result.user));
+            this.props.loginAction(result.user);
+            this.props.history.push("/perfil");
         }).catch(function(error) {
-
+            console.log(error)
         });
     }
 
@@ -134,4 +150,11 @@ class Login extends Component {
     }
 }
 
-export default Login;
+function mapStateToProps(state, ownProps){
+    console.log(state);
+    return {
+        user:state.user.userObject
+    }
+}
+
+export default Login = connect(mapStateToProps, {loginAction})(Login);

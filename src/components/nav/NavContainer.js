@@ -2,22 +2,31 @@ import React, { Component } from 'react';
 import {NavDisplay} from './NavDisplay';
 import './Nav.css';
 import {withRouter} from 'react-router-dom';
+//redux
+import {connect} from 'react-redux';
+import {logoutAction} from '../../redux/actions/userAction';
 
 class NavContainer extends Component {
 
     state = {
         top:true,
-        isLogged:false
+        isLogged:false,
+        user: null
     };
     signOut  = () => {
         localStorage.removeItem("user");
+        this.props.logoutAction();
         this.props.history.push("/");
 
     };
     componentWillMount() {
-        const user = localStorage.getItem("user");
+        let user = localStorage.getItem("user");
+        console.log(user)
+        // user = JSON.parse(user);
+
+
         if (user) {
-            this.setState({isLogged:true})
+            this.setState({isLogged:true, user})
         }else{
             this.setState({isLogged:false})
         }
@@ -28,12 +37,21 @@ class NavContainer extends Component {
         return (
             <div>
                 <NavDisplay
-                    isLogged={this.state.isLogged}
+                    isLogged={this.props.isLogged}
                     signOut={this.signOut}
+                    {...this.props.user}
                 />
             </div>
         );
     }
 }
 
-export default withRouter(NavContainer);
+function mapStateToProps(state, ownProps){
+    console.log(state);
+    return {
+        user:state.user.userObject,
+        isLogged:Object.keys(state.user.userObject).length > 0
+    }
+}
+
+export default NavContainer = connect(mapStateToProps, {logoutAction})(withRouter(NavContainer));

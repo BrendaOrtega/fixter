@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import logo from '../../assets/geek_completo.png';
 
 
-export const NavDisplay = ({isLogged, signOut}) => {
+export const NavDisplay = ({isLogged, signOut, photoURL}) => {
 
     return (
         <div className="nav-bar">
@@ -22,7 +22,12 @@ export const NavDisplay = ({isLogged, signOut}) => {
                     <div className="log">
                     <Link to="/login" >
                         <span >Login</span>
-                    </Link></div>: <button onClick={signOut} className="close" >Cerrar sesion</button>}
+                    </Link></div>:
+                    <div>
+                        <img width="50px" src={photoURL} alt=""/>
+                        <button onClick={signOut} className="close" >Cerrar sesion</button>
+
+                    </div>}
             </div>
         </div>
     );
