@@ -45,6 +45,12 @@ class Footer extends Component {
                                 <FontAwesome name="instagram" size="2x"/>
                             </Link>
                         </div>
+                        <br/>
+                        <span>
+                                <Link to="/politicas-de-privacidad">
+                                    <span>Politicas de Privacidad</span>
+                                </Link>
+                        </span>
                     </div>
                 </div>
             </div>
