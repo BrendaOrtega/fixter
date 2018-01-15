@@ -9,6 +9,7 @@ import Perfil from './components/perfil/Perfil';
 import PayForm from './components/payform/PayForm';
 import CursosConteiner from './components/cursos/CursosConteiner';
 import Contacto from './components/contacto/Contacto';
+import Politicas from './components/politicas/Politicas';
 
 export const Routes = () => (
     <Switch>
@@ -21,5 +22,6 @@ export const Routes = () => (
         <Route path="/pay" component={PayForm} />
         <Route path="/cursos" component={CursosConteiner} />
         <Route path="/contacto" component={Contacto}/>
+        <Route path="/politicas-de-privacidad" component={Politicas} />
     </Switch>
 );
