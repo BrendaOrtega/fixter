@@ -23,9 +23,14 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
                     <Link to="/login" >
                         <span >Login</span>
                     </Link></div>:
-                    <div>
-                        <img width="50px" src={photoURL} alt=""/>
-                        <button onClick={signOut} className="close" >Cerrar sesion</button>
+                    <div className="dropdown" style={{display:"flex", alignItems:"center"}}>
+                        <button className="dropbtn"><img className="userphoto" src={photoURL} alt=""/></button>
+                        <div className="dropdown-content">
+                            <Link to="/perfil">Perfil</Link>
+                            <Link onClick={signOut} to="/">Cerrar sesión</Link>
+                        </div>
+
+                        {/*<button  className="close" >Cerrar sesion</button>*/}
 
                     </div>}
             </div>

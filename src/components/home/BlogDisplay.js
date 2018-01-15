@@ -10,7 +10,7 @@ export const BlogDisplay = () => {
             <div id="box_flex">
                 <div className="uno">
                     <div className="nota_uno blog_uno">
-                        <Link to="" target="blank">
+                        <Link to="http://blog.fixter.org/hospedando-django-celery-rabbitmq-en-aws-parte-1/" target="blank">
                             <div className="etiq">
                                 <p>Hospedaje Django + Celery + RabbitMQ en AWS</p>
                             </div>
@@ -28,7 +28,7 @@ export const BlogDisplay = () => {
                 </div>
                 <div className="dos">
                     <div className="nota_dos blog_tres">
-                        <Link to="" target="blank">
+                        <Link to="http://blog.fixter.org/crea-tu-primer-chat-en-tiempo-real-con-firebase/" target="blank">
                             <div className="etiq">
                                 <p>¡Crea tu primer chat en tiempo real con Firebase!</p>
                             </div>
