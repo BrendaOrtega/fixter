@@ -80,7 +80,7 @@ class Login extends Component {
     };
     loginGoogle = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().signInWithPopup(provider).then(result=> {
+        firebase.auth().signInWithRedirect(provider).then(result=> {
             console.log(result.user)
             localStorage.setItem("user",JSON.stringify(result.user));
             this.props.loginAction(result.user);
@@ -93,7 +93,7 @@ class Login extends Component {
     loginFacebook = () => {
         const provider = new firebase.auth.FacebookAuthProvider();
 
-        firebase.auth().signInWithPopup(provider).then(result=> {
+        firebase.auth().signInWithRedirect(provider).then(result=> {
             console.log(result.user);
             localStorage.setItem("user",JSON.stringify(result.user));
             this.props.loginAction(result.user);
