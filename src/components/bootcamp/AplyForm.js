@@ -36,13 +36,12 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                                 <select name="path"  onChange={onChangeAply} type="text" className='icon' id="name" required data-validation-required-message="Please enter your name.">
                                     <option  default value="Bootcamp">Bootcamp</option>
                                     <optgroup  label='Febrero-Abril'>
-                                        <option value="Frontend-Path Febrero">Frontend-Path </option>
-                                        <option value="Backend-Path Frebrero">Backend-Path</option>
-                                        <option value="Introducción a la programación Febrero">Introducción a la programación </option>
+                                        <option value="FullStack Febrero">FullStack-Path </option>
+                                        <option value="Introducción a la programación Febrero">Introducción al Diseño Web </option>
                                     </optgroup>
                                     <optgroup  label='Mayo-Julio'>
                                         <option value="Mobile-Path Mayo">Mobile-Path</option>
-                                        <option value="FullStack Mayo">FullStack-Path</option>
+                                        <option value="Frontend Mayo">Frontend-Path</option>
                                     </optgroup>
                                     <optgroup  label='Septiembre-Noviembre'>
                                         <option value="Frontend-Path Septiembre">Frontend-Path </option>

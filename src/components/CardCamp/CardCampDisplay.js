@@ -2,10 +2,10 @@ import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import {Link} from 'react-router-dom';
 import './CardCamp.css';
-import temario from '../../assets/temarios/temario.pdf';
 
 
-export const CardCampDisplay = ({nombre, descript, imagen, fecha, precio}) => {
+
+export const CardCampDisplay = ({nombre, descript, imagen, fecha, precio, temario}) => {
 
     return (
         <div className="card">
