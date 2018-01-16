@@ -80,7 +80,7 @@ class Login extends Component {
     };
     loginGoogle = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().getRedirectResult().then(result=> {
+        firebase.auth().signInWithRedirect(provider).then(result=> {
             console.log(result.user)
             localStorage.setItem("user",JSON.stringify(result.user));
             this.props.loginAction(result.user);
@@ -97,7 +97,7 @@ class Login extends Component {
             console.log(result.user);
             localStorage.setItem("user",JSON.stringify(result.user));
             this.props.loginAction(result.user);
-            this.props.history.push("/perfil");
+            this.props.history.push("/");
         }).catch(function(error) {
             console.log(error)
         });
