@@ -9,7 +9,6 @@ import {logoutAction} from '../../redux/actions/userAction';
 class NavContainer extends Component {
 
     state = {
-        top:true,
         isLogged:false,
         user: null
     };

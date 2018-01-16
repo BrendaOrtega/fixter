@@ -46,6 +46,7 @@ class Footer extends Component {
                             </Link>
                         </div>
                         <br/>
+                        <br/>
                         <span>
                                 <Link to="/politicas-de-privacidad">
                                     <span>Politicas de Privacidad</span>

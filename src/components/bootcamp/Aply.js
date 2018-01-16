@@ -1,85 +1,96 @@
 import React, { Component } from 'react';
 import './Aply.css';
-import FontAwesome from 'react-fontawesome';
+import firebase from '../../firebase';
+import {AplyForm} from './AplyForm';
+
 
 class Aply extends Component {
+    state = {
+        errors: {},
+        newAply:{
+
+        },
+        aplys: [
+
+        ],
+    };
+    componentWillMount() {
+        let user = localStorage.getItem("user");
+        console.log(user)
+        // user = JSON.parse(user);
+        if (user) {
+            this.setState({isLogged:true, user})
+        }else{
+            this.setState({isLogged:false})
+            this.props.history.push("/login");
+        }
+    }
     componentDidMount () {
         window.scroll(0, 0)
     }
+
+    onChangeAply = (e) => {
+        let newAply = this.state.newAply;
+        const field = e.target.name;
+        const value = e.target.value;
+        newAply[field] = value;
+        this.setState({newAply});
+        console.log(newAply);
+    };
+
+    validateForm = () => {
+        let newAply = this.state.newAply;
+        console.log(newAply)
+        let errors = this.state.errors;
+        let isOk = true;
+        return isOk;
+    };
+    onSave = (e) => {
+        e.preventDefault()
+        if (this.validateForm()) {
+            firebase.database().ref("aplys")
+                .push(this.state.newAply)
+                .then(r => {
+                    console.log(r.key)
+                    if(this.state.file){
+                        let updates = {};
+                        firebase.storage()
+                            .ref(r.key)
+                            .child(this.state.file.name)
+                            .put(this.state.file)
+                            .then(s=>{
+                                const link = s.downloadURL;
+                                let newAply = this.state.newAply;
+                                newAply["photos"] =[link];
+                                updates[`/aplys/${r.key}`] = newAply;
+                                firebase.database().ref().update((updates));
+
+                            });
+                    }
+                    console.log("Si guarde" + r.key)
+                    this.props.history.push("/perfil");
+
+                })
+                .catch(e=>{
+                    console.log("asi no:", e.message);
+                });
+        } else{
+            alert("aun no");
+        };
+
+    };
+
     render() {
+        const {aplys, errors} = this.state;
         return (
-            <div className="aplicacion">
-
-                <div className="card_form">
-                    <h2>Inscribete a nuestro Bootcamp ahora</h2>
-                    <hr className="division"/>
-                    <form method="post" name="sentMessage" action="">
-                        <div className="formgroup">
-                            <div className="inp">
-                                <FontAwesome name="user" />
-                                <input type="text" name="nombre" className="formcontrol" placeholder="Nombre" required data-validation-required-message="Porfavor ingresa tu nombre"/>
-                                <p className="help-block text-danger"></p></div>
-                        </div>
-                        <div className="formgroup">
-                            <div className="inp">
-                                <FontAwesome name="envelope" />
-                                <input type="email" name="email" className="formcontrol" placeholder="Email"  required data-validation-required-message="Porfavor ingresa tu e-mail"/>
-                                <p className="help-block text-danger"></p></div>
-                        </div>
-                        <div className="formgroup">
-                            <div className="inp">
-                                <FontAwesome name="user" />
-                                <input type="tel" name="tel" className="formcontrol" placeholder="Telefono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
-                                <p className="help-block text-danger"></p></div>
-                        </div>
-                        <div className="formgroup">
-                            <div className='option'>
-                                <select name="path" type="text" className='icon' id="name" required data-validation-required-message="Please enter your name.">
-                                    <option  default value="Bootcamp">Bootcamp</option>
-                                    <optgroup  label='Febrero-Abril'>
-                                        <option value="Frontend-Path Febrero">Frontend-Path </option>
-                                        <option value="Backend-Path Frebrero">Backend-Path</option>
-                                        <option value="Introducción a la programación Febrero">Introducción a la programación </option>
-                                    </optgroup>
-                                    <optgroup  label='Mayo-Julio'>
-                                        <option value="Mobile-Path Mayo">Mobile-Path</option>
-                                        <option value="FullStack Mayo">FullStack-Path</option>
-                                    </optgroup>
-                                    <optgroup  label='Septiembre-Noviembre'>
-                                        <option value="Frontend-Path Septiembre">Frontend-Path </option>
-                                        <option value="Backend-Path Septiembre">Backend-Path</option>
-                                    </optgroup>
-                                </select>
-                            </div>
-                        </div>
-                        <br/>
-                        <hr className="division"/>
-                        <br/>
-                        <div className="formgroup">
-                            <label htmlFor="">Quieres aplicar para una beca de descuento?</label>
-                            <br/>
-                            <br/>
-                            <div className='option'>
-                                <select name="path" type="text" className='icon' id="name" required data-validation-required-message="Please enter your name.">
-                                    <option  default value="Beca">Beca</option>
-                                        <option value="Si">si </option>
-                                        <option value="No">no</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div className="formgroup">
-
-                            <div className="inp">
-                                <div className="msj">
-                                    <FontAwesome name="commenting" /></div>
-
-                                <textarea type="text" name="msj" className="formcontrol" placeholder="Porque deberías obtenerla? Escribe un breve mensaje"/>
-                                <p className="help-block text-danger"></p></div>
-                        </div>
-                        <br/>
-                        <button className="btn_start">Enviar</button>
-                    </form>
-                </div>
+            <div>
+                <AplyForm
+                    aplys={aplys}
+                    aply={this.state.newAply}
+                    onChangeAply={this.onChangeAply}
+                    errors={errors}
+                    onSave={this.onSave}
+                />
             </div>
         );
     }
