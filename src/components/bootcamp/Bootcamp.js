@@ -53,7 +53,7 @@ class Bootcamp extends Component {
                         imagen="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"25 de Febrero"}
                         precio={"6,000.00"}
-                        temario={temario_back}
+                        temario={temario_intro}
                     />
                     <CardCampDisplay
                         nombre={"Frontend Path"}
