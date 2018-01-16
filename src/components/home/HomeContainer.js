@@ -9,6 +9,9 @@ import {BlogDisplay} from './BlogDisplay';
 import {ProcessDisplay} from './ProcessDisplay';
 
 class HomeContainer extends Component {
+    componentWillMount(){
+        //console.log(localStorage.getItem("user"));
+    }
     componentDidMount () {
         window.scroll(0, 0)
     }
