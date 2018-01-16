@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5823b5-57a7-40e1-ae98-1ad56a060a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/login/Login.js" afterPath="$PROJECT_DIR$/src/components/login/Login.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/login/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="95" column="42" lean-forward="false" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+            <state relative-caret-position="104">
+              <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#207#243#0" expanded="true" />
@@ -245,8 +244,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="149" />
+    <option name="x" value="186" />
+    <option name="y" value="86" />
     <option name="width" value="1049" />
     <option name="height" value="726" />
   </component>
@@ -432,15 +431,15 @@
       <workItem from="1515802075903" duration="1982000" />
       <workItem from="1515946142560" duration="17000" />
       <workItem from="1515946164075" duration="7648000" />
-      <workItem from="1516058361528" duration="7523000" />
+      <workItem from="1516058361528" duration="7830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102640000" />
+    <option name="totallyTimeSpent" value="102947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="149" width="1049" height="726" extended-state="0" />
+    <frame x="186" y="86" width="1049" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26978076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -884,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/login/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="95" column="42" lean-forward="false" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+        <state relative-caret-position="104">
+          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#207#243#0" expanded="true" />
