@@ -8,7 +8,7 @@ import {logoutAction} from '../../redux/actions/userAction';
 class Perfil extends Component {
 
     state = {
-        isLogged:true,
+        isLogged:false,
         user: null
     };
 

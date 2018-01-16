@@ -22,8 +22,7 @@ class NavContainer extends Component {
         let user = localStorage.getItem("user");
         console.log(user)
         // user = JSON.parse(user);
-
-
+        
         if (user) {
             this.setState({isLogged:true, user})
         }else{
