@@ -14,9 +14,9 @@ class Perfil extends Component {
 
     componentWillMount() {
         let user = localStorage.getItem("user");
-        console.log(user)
         // user = JSON.parse(user);
         if (user) {
+            console.log("si")
             this.setState({isLogged:true, user})
         }else{
             this.setState({isLogged:false})

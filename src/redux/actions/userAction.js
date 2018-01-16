@@ -2,6 +2,7 @@
  * Created by brendaortega on 14/01/18.
  */
 //User login
+import firebase from '../../firebase';
 
 
     //grupito
@@ -31,5 +32,6 @@ function logoutSuccess(){
 }
 
 export const logoutAction = () => (dispatch) => {
+    //firebase.auth().signOut();
     dispatch(logoutSuccess());
 };
