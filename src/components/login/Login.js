@@ -36,6 +36,19 @@ class Login extends Component {
     //     }
     // };
 
+    componentWillMount(){
+        firebase.auth().getRedirectResult()
+        .then(result=> {
+            if(!result.user) return;
+            console.log(result.user);
+            localStorage.setItem("user",JSON.stringify(result.user));
+            this.props.loginAction(result.user);
+            this.props.history.push("/perfil");
+        }).catch(function(error) {
+            console.log(error)
+        });
+    }
+
     toggleMostrar = () => {
         this.setState({mostrar:!this.state.mostrar});
     };
@@ -80,28 +93,11 @@ class Login extends Component {
     };
     loginGoogle = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().signInWithPopup(provider).then(result=> {
-
-            console.log(result.user)
-            localStorage.setItem("user",JSON.stringify(result.user));
-            this.props.loginAction(result.user);
-            this.props.history.push("/perfil");
-
-        }).catch(function(error) {
-
-        });
+        firebase.auth().signInWithRedirect(provider);
     };
     loginFacebook = () => {
         const provider = new firebase.auth.FacebookAuthProvider();
-
-        firebase.auth().signInWithPopup(provider).then(result=> {
-            console.log(result.user);
-            localStorage.setItem("user",JSON.stringify(result.user));
-            this.props.loginAction(result.user);
-            this.props.history.push("/perfil");
-        }).catch(function(error) {
-            console.log(error)
-        });
+        firebase.auth().signInWithRedirect(provider);
     }
 
     changeRegistro = () => {
