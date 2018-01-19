@@ -43,6 +43,8 @@ class Bootcamp extends Component {
                         backend con NodeJs y MongoDB, y crea tu propia API. "
                         imagen="https://images.pexels.com/photos/209151/pexels-photo-209151.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"27 de Febrero"}
+                        dia={"Todos los días"}
+                        horario={"4 pm a 6:30 pm"}
                         precio={"6,000.00"}
                         temario={temario_full}
                     />
@@ -53,6 +55,8 @@ class Bootcamp extends Component {
                         imagen="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"25 de Febrero"}
                         precio={"6,000.00"}
+                        dia={"Todos los sábados"}
+                        horario={"9 am a 3:00 pm"}
                         temario={temario_intro}
                     />
                     <CardCampDisplay
@@ -64,6 +68,8 @@ class Bootcamp extends Component {
                         imagen="https://images.pexels.com/photos/768472/pexels-photo-768472.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"19 de Mayo"}
                         precio={"6,000.00"}
+                        dia={"Todos los sábados"}
+                        horario={"9 am a 3:00 pm"}
                         temario={temario_front}
 
                     />
@@ -76,6 +82,8 @@ class Bootcamp extends Component {
                         producción de forma optima."
                         imagen="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"19 de Mayo"}
+                        dia={"Todos los sábados"}
+                        horario={"9 am a 3:00 pm"}
                         precio={"6,000.00"}
 
                     />
@@ -89,6 +97,8 @@ class Bootcamp extends Component {
                         imagen="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"8 de Septiembre"}
                         precio={"6,000.00"}
+                        dia={"Todos los sábados"}
+                        horario={"9 am a 3:00 pm"}
                         temario={temario_front}
 
                     />
@@ -100,6 +110,8 @@ class Bootcamp extends Component {
                         imagen="https://images.pexels.com/photos/89724/pexels-photo-89724.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"8 de Septiembre"}
                         precio={"6,000.00"}
+                        dia={"Todos los sábados"}
+                        horario={"9 am a 3:00 pm"}
                         temario={temario_back}
                     />
                 </div>
