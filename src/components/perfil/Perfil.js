@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Perfil.css';
 import {PerfilDisplay} from './PerfilDisplay';
 import {connect} from 'react-redux';
-import {logoutAction} from '../../redux/actions/userAction';
 
 
 class Perfil extends Component {

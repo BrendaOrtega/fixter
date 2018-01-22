@@ -5,6 +5,10 @@ class PayForm extends Component {
     componentDidMount () {
         window.scroll(0, 0)
     }
+    push =()=>{
+        alert("Aun no se abre el período de pago")
+}
+
     render() {
         return (
             <div className="pay">
@@ -83,7 +87,7 @@ class PayForm extends Component {
                             <span><input className="check" type="checkbox" placeholder=""/>Acepto terminos y Condiciones</span>
                         </div>
                         <br/>
-                        <button className="btn_start">Pagar $6,000.00</button>
+                        <button onClick={this.push} className="btn_start">Pagar $6,000.00</button>
                     </form>
                 </div>
             </div>

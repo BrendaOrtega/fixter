@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/geek_completo.png';
+import user from '../../assets/user.png';
 
 
 export const NavDisplay = ({isLogged, signOut, photoURL}) => {
@@ -24,7 +25,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
                         <span >Login</span>
                     </Link></div>:
                     <div className="dropdown" style={{display:"flex", alignItems:"center"}}>
-                        <button className="dropbtn"><img className="userphoto" src={photoURL} alt=""/></button>
+                        <button className="dropbtn"><img className="userphoto" src={photoURL ? photoURL : user} alt=""/></button>
                         <div className="dropdown-content">
                             <Link to="/perfil">Perfil</Link>
                             <Link onClick={signOut} to="/">Cerrar sesión</Link>

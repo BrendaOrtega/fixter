@@ -73,7 +73,7 @@
     margin: 20px 10px;
 }
 .opacity{
-    opacity: .5;
+    opacity: .3;
 }
 .box_courses{
     display: flex;
@@ -86,6 +86,8 @@
     height:auto;
     margin: 20px 0;
     text-align: center;
+    cursor: pointer;
+    position: relative;
 }
 .crs p{
     margin: 0;
@@ -94,6 +96,19 @@
     width:90%;
     margin-left: 5%;
 
+}
+.aviso{
+    display: none;
+    position: absolute;
+    top:40px;
+    right:0px;
+    background-color: #f9f9f9;
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.crs:hover .aviso{
+    display: inherit;
 }
 @media (max-width: 376px){
     .perfil_progress{

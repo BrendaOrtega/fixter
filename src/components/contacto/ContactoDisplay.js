@@ -12,7 +12,7 @@ export const ContactoDisplay = ({onSave, errors, onChangeMessage, name, email, t
                 <div  className="cover">
                     <img src={antena} alt=""/>
                     <h2>Contactanos</h2>
-                    <p>Te responderemos lo antes posible</p>
+                    <p className="pf">Te responderemos lo antes posible</p>
                 </div>
             </div>
             <div className="datos_contacto">

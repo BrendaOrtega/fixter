@@ -7,7 +7,7 @@ export const ProcessDisplay = () => {
 
     return (
         <div className="process">
-            <h2 className="subtitulo">How?</h2>
+            <h2 className="subtitulo">¿How?</h2>
             <div className="step_box">
                 <div className="fl">
                     <div className="step">
@@ -29,8 +29,8 @@ export const ProcessDisplay = () => {
                     <div className="step_dos">
                         <div className="step_text_dos">
                     <h3>Aprende</h3>
-                    <p>Listo para empezar? Elige el path que mas te agrade, y comienza a aprender los
-                        lenguajes de programación mas utilizados en la indsutria del software. Somos
+                    <p>¿Listo para empezar? Elige un Path, y comienza a aprender los
+                        lenguajes de programación más utilizados en la indsutria del software. Somos
                         una comunidad amante del código, así que continuamente estaremos estrenando cursos para
                         que aprendas día a día.
                      </p></div>
@@ -42,8 +42,8 @@ export const ProcessDisplay = () => {
                         <div className="step_text">
 
                         <h3>Práctica</h3>
-                        <p>Completa los proyectos despues de cada curso poniendo en practia las herramientas
-                            que acabas de aprender. Si tienes alguna duda, nuestro equipo estara siempre para apoyarte.</p>
+                        <p>Completa los proyectos después de cada curso poniendo en práctica las herramientas
+                            que acabas de aprender. Si tienes alguna duda, nuestro equipo estará siempre apoyandote.</p>
                         </div>
                     </div>
                     <div className="step_img">

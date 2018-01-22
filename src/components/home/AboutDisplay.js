@@ -16,9 +16,9 @@ export const AboutDisplay = () => {
                     desarrollo de software más utilizadas a nivel mundial, teniendo acceso a cursos y bootcamps
                 de alta calidad.
                 </p>
-        <br />
-                <p>
-                El FixterCamp es un bootcamp que busca enseñar a los curiosos por el código los lenguajes de programación más modernos de
+
+                <p className="parrafo">
+                Nuestro bootcamp busca enseñar a los curiosos por el código los lenguajes de programación más modernos de
                 forma profesional. No es una escuela tradicional,
                     es un lugar en donde en comunidad y de la mano de nuestros expertos
                 aprenderás las buenas prácticas de la programación.

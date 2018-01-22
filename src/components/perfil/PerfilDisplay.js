@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import camp from '../../assets/bootcamp.png';
+import user from '../../assets/user.png';
 
 export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
 
@@ -9,12 +10,12 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
             <div className="profile">
                 <div className="perfil_datos">
                     <div className="data_card">
-                        <img  className="photo_user" src={photoURL} alt=""/>
+                        <img  className="photo_user" src={photoURL ? photoURL : user} alt=""/>
                         <div className="user_data">
                             <h2>{displayName}</h2>
                             <p>{email}</p>
                             <hr className="division"/>
-                            <p>{displayName} te uniste a Fixter </p>
+                            <p>{displayName ? displayName : email} te uniste a Fixter </p>
                             <p>recientemente</p>
                         </div>
                     </div>
@@ -36,23 +37,47 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
                         <div className="box_courses">
                             <div className="crs opacity">
                                 <img className="batches" src={camp} alt=""/>
+                                <p>Intro al código</p>
+
+                                <div className="aviso">
+                                    <p>Graduate de este bootcamp para desbloquear</p>
+                                </div>
+                            </div>
+                            <div className="crs opacity">
+                                <img className="batches" src={camp} alt=""/>
                                 <p>Frontend Path</p>
+
+                                <div className="aviso">
+                                    <p>Graduate de este bootcamp para desbloquear</p>
+                                </div>
                             </div>
                             <div className="crs opacity">
                                 <img className="batches" src={camp} alt=""/>
                                 <p>Backend Path</p>
+                                <div className="aviso">
+                                    <p>Graduate de este bootcamp para desbloquear</p>
+                                </div>
                             </div>
                             <div className="crs opacity">
                                 <img className="batches" src={camp} alt=""/>
                                 <p>Mobile Path</p>
+                                <div className="aviso">
+                                    <p>Graduate de este bootcamp para desbloquear</p>
+                                </div>
                             </div>
                             <div className="crs opacity">
                                 <img className="batches" src={camp} alt=""/>
                                 <p>FullStack Path</p>
+                                <div className="aviso">
+                                    <p>Graduate de este bootcamp para desbloquear</p>
+                                </div>
                             </div>
                             <div className="crs opacity">
                                 <img className="batches" src={camp} alt=""/>
                                 <p>Servers Path</p>
+                                <div className="aviso">
+                                    <p>Graduate de este bootcamp para desbloquear</p>
+                                </div>
                             </div>
                         </div>
                     </div>

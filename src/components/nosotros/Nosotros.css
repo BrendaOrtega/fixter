@@ -1,6 +1,7 @@
 .nosotros{
     background-color: #232c3b;
     text-align: center;
+    font-family: 'Gotam';
 }
 
 .present{
@@ -13,6 +14,7 @@
 .present p{
     color:#B0B6BE;
     text-align: justify;
+    font-size: 18px;
 }
 .present img{
     width:30%;
