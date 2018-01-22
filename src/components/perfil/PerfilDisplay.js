@@ -10,7 +10,7 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
             <div className="profile">
                 <div className="perfil_datos">
                     <div className="data_card">
-                        <img  className="photo_user" src={photoURL ? photoURL : user} alt=""/>
+                        <img  className="photo_user" src={photoURL ? photoURL : user} alt="user"/>
                         <div className="user_data">
                             <h2>{displayName}</h2>
                             <p>{email}</p>
@@ -36,7 +36,7 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
                         <hr className="division"/>
                         <div className="box_courses">
                             <div className="crs opacity">
-                                <img className="batches" src={camp} alt=""/>
+                                <img className="batches" src={camp} alt="camp"/>
                                 <p>Intro al código</p>
 
                                 <div className="aviso">
@@ -44,7 +44,7 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
                                 </div>
                             </div>
                             <div className="crs opacity">
-                                <img className="batches" src={camp} alt=""/>
+                                <img className="batches" src={camp} alt="camp"/>
                                 <p>Frontend Path</p>
 
                                 <div className="aviso">
@@ -52,28 +52,28 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
                                 </div>
                             </div>
                             <div className="crs opacity">
-                                <img className="batches" src={camp} alt=""/>
+                                <img className="batches" src={camp} alt="camp"/>
                                 <p>Backend Path</p>
                                 <div className="aviso">
                                     <p>Graduate de este bootcamp para desbloquear</p>
                                 </div>
                             </div>
                             <div className="crs opacity">
-                                <img className="batches" src={camp} alt=""/>
+                                <img className="batches" src={camp} alt="camp"/>
                                 <p>Mobile Path</p>
                                 <div className="aviso">
                                     <p>Graduate de este bootcamp para desbloquear</p>
                                 </div>
                             </div>
                             <div className="crs opacity">
-                                <img className="batches" src={camp} alt=""/>
+                                <img className="batches" src={camp} alt="camp"/>
                                 <p>FullStack Path</p>
                                 <div className="aviso">
                                     <p>Graduate de este bootcamp para desbloquear</p>
                                 </div>
                             </div>
                             <div className="crs opacity">
-                                <img className="batches" src={camp} alt=""/>
+                                <img className="batches" src={camp} alt="camp"/>
                                 <p>Servers Path</p>
                                 <div className="aviso">
                                     <p>Graduate de este bootcamp para desbloquear</p>

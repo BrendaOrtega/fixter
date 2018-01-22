@@ -10,7 +10,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
         <div className="nav-bar">
             <div className="logo">
                 <Link to="/">
-                    <img className="logo_fix" src={logo} alt=""/>
+                    <img className="logo_fix" src={logo} alt="logo"/>
                 </Link>
             </div>
             <div className="pestanas">

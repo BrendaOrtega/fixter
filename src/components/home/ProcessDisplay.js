@@ -18,13 +18,13 @@ export const ProcessDisplay = () => {
                         </div>
                     </div>
                     <div className="step_img">
-                        <img src={explorar} alt=""/>
+                        <img src={explorar} alt="explora"/>
                     </div>
                 </div>
                 <div className="fl">
 
                     <div className="step_img_dos">
-                        <img src={aprende} alt=""/>
+                        <img src={aprende} alt="aprende"/>
                     </div>
                     <div className="step_dos">
                         <div className="step_text_dos">
@@ -47,7 +47,7 @@ export const ProcessDisplay = () => {
                         </div>
                     </div>
                     <div className="step_img">
-                        <img src={practica} alt=""/>
+                        <img src={practica} alt="practica"/>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export const SlideDisplay = () => {
                     </Link>
                </div>
                <div className="slide_img">
-                    <img className="pre" src={nerd} alt=""/>
+                    <img className="pre" src={nerd} alt="nerd"/>
                 </div>
            </div>
         </div>

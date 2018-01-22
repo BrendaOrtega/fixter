@@ -19,7 +19,7 @@ export const PromoDisplay = () => {
                     </Link>
                 </div>
                 <div className="img_promo">
-                    <img className="diploma" src={diploma} alt=""/>
+                    <img className="diploma" src={diploma} alt="diploma"/>
                 </div>
 
         </div>
