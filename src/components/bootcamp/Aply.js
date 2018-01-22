@@ -16,7 +16,7 @@ class Aply extends Component {
     };
     componentWillMount() {
         let user = localStorage.getItem("user");
-        console.log(user)
+        // console.log(user)
         // user = JSON.parse(user);
         if (user) {
             this.setState({isLogged:true, user})
@@ -35,12 +35,12 @@ class Aply extends Component {
         const value = e.target.value;
         newAply[field] = value;
         this.setState({newAply});
-        console.log(newAply);
+        // console.log(newAply);
     };
 
     validateForm = () => {
-        let newAply = this.state.newAply;
-        console.log(newAply)
+        // let newAply = this.state.newAply;
+        // console.log(newAply)
         // let errors = this.state.errors;
         let isOk = true;
         return isOk;
@@ -51,7 +51,7 @@ class Aply extends Component {
             firebase.database().ref("aplys")
                 .push(this.state.newAply)
                 .then(r => {
-                    console.log(r.key)
+                    // console.log(r.key)
                     if(this.state.file){
                         let updates = {};
                         firebase.storage()
@@ -67,15 +67,16 @@ class Aply extends Component {
 
                             });
                     }
-                    console.log("Si guarde" + r.key)
+                    // console.log("Si guarde" + r.key)
+                    alert("Tu aplicación ha sido enviada");
                     this.props.history.push("/perfil");
 
                 })
                 .catch(e=>{
-                    console.log("asi no:", e.message);
+                    // console.log("asi no:", e.message);
                 });
         } else{
-            alert("aun no");
+            alert("No se pudo enviar la aplicación");
         };
 
     };

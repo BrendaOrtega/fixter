@@ -3,7 +3,6 @@ import {LoginDisplay} from './LoginDisplay';
 import {RegisterDisplay} from './RegisterDisplay';
 import './Login.css';
 import firebase from '../../firebase';
-import toastr from 'toastr';
 //redux
 import {connect} from 'react-redux';
 import {loginAction} from '../../redux/actions/userAction';

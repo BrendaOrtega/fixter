@@ -25,7 +25,7 @@ class NavContainer extends Component {
         // user = JSON.parse(user);
 
         if (user) {
-            console.log("si")
+            // console.log("si")
             this.setState({isLogged:true, user})
         }else{
             this.setState({isLogged:false})
@@ -47,7 +47,7 @@ class NavContainer extends Component {
 }
 
 function mapStateToProps(state, ownProps){
-    console.log(state);
+    // console.log(state);
     return {
         user:state.user.userObject,
         isLogged:Object.keys(state.user.userObject).length > 0

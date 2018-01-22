@@ -29,7 +29,7 @@ class Contacto extends Component {
     validateForm = () => {
         let newMessage = this.state.newMessage;
         console.log(newMessage)
-        let errors = this.state.errors;
+        // let errors = this.state.errors;
         let isOk = true;
         return isOk;
     };

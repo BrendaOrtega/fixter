@@ -33,7 +33,7 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                         </div>
                         <div className="formgroup">
                             <div className='option'>
-                                <select name="path"  onChange={onChangeAply} type="text" className='icon' id="name" required data-validation-required-message="Please enter your name.">
+                                <select name="path"  onChange={onChangeAply} type="text" className='icon' id="name"  data-validation-required-message="Please complete">
                                     <option  default value="Bootcamp">Bootcamp</option>
                                     <optgroup  label='Febrero-Abril'>
                                         <option value="FullStack Febrero">FullStack-Path </option>
