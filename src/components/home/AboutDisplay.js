@@ -16,9 +16,15 @@ export const AboutDisplay = () => {
                     desarrollo de software más utilizadas a nivel mundial, teniendo acceso a cursos y bootcamps
                 de alta calidad.
                 </p>
-                <p className="parrafo">Is a group of working web development professionals
-                    and open source contributors that provide you with concise,
-                    information dense video courses on the best tools in the industry.</p>
+        <br />
+                <p>
+                El FixterCamp es un bootcamp que busca enseñar a los curiosos por el código los lenguajes de programación más modernos de
+                forma profesional. No es una escuela tradicional,
+                    es un lugar en donde en comunidad y de la mano de nuestros expertos
+                aprenderás las buenas prácticas de la programación.
+
+                </p>
+
 
             </div>
         </div>

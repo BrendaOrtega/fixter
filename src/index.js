@@ -9,8 +9,10 @@ import registerServiceWorker from './registerServiceWorker';
 //redux
 import configureStore from './redux/store/store';
 import {Provider} from 'react-redux';
+import {checkForUser} from './redux/actions/userAction';
 
 export const store = configureStore();
+store.dispatch(checkForUser());
 
 const WithRouter = () => (
 

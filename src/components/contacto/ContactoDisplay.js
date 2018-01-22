@@ -3,10 +3,11 @@ import './Contacto.css';
 import FontAwesome from 'react-fontawesome';
 import antena from '../../assets/antena.png';
 
-export const ContactoDisplay = () => {
+export const ContactoDisplay = ({onSave, errors, onChangeMessage, name, email, tel, msj }) => {
 
     return (
         <div className="contacto">
+
             <div className="contacto_img">
                 <div  className="cover">
                     <img src={antena} alt=""/>
@@ -36,10 +37,12 @@ export const ContactoDisplay = () => {
             </div>
             <div className="formu">
                 <h3>Formulario de Contacto</h3>
-                <form>
-                    <input type="text" placeholder="Nombre" required data-validation-required-message="Porfavor ingresa tu nombre"/>
-                    <input type="text" placeholder="E-mail" required data-validation-required-message="Porfavor ingresa tu e-mail"/>
-                    <textarea type="text" placeholder="Mensaje" required data-validation-required-message="Ingresa aquí tu mensaje, duda o comentario"/>
+                <form onSubmit={onSave}>
+                    <input value={name} onChange={onChangeMessage} name="nombre" type="text" placeholder="Nombre" required data-validation-required-message="Porfavor ingresa tu nombre"/>
+                    <input value={email} onChange={onChangeMessage} name="email"  type="text" placeholder="E-mail" required data-validation-required-message="Porfavor ingresa tu e-mail"/>
+                      <input value={tel} onChange={onChangeMessage} name="tel"  type="text" placeholder="Teléfono" required data-validation-required-message="Porfavor ingresa tu teléfono"/>
+
+                  <textarea value={msj} onChange={onChangeMessage} name="msj" type="text" placeholder="Mensaje" required data-validation-required-message="Ingresa aquí tu mensaje, duda o comentario"/>
                     <button className="btn_start">Enviar</button>
                 </form>
             </div>
