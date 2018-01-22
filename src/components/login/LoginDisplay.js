@@ -21,10 +21,10 @@ export const LoginDisplay = ({mostrar, toggleMostrar, saveInput, onSubmit, error
                     <p>Tu email</p>
                     <input className="input" name="email" onChange={saveInput} type="text" placeholder=""/>
                     <br/>
-                    <p>Tu contrasena</p>
+                    <p>Tu contraseña</p>
                     <input className="input" name="password" onChange={saveInput} type="password"/>
-                    <p className="ayuda">Has olvidado tu contrasena?</p>
-                    <button type="submit" className="btn_login">Iniciar sesion</button>
+                    <p className="ayuda">¿Has olvidado tu contraseña?</p>
+                    <button type="submit" className="btn_login">Iniciar sesión</button>
                 </form>
             </div>
             <p className="ayuda"><a onClick={changeRegistro} href="#!">Crea una cuenta</a></p>

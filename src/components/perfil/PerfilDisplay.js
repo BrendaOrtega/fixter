@@ -14,8 +14,8 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
                             <h2>{displayName}</h2>
                             <p>{email}</p>
                             <hr className="division"/>
-                            <p>BrendiJs te uniste a Fixter </p>
-                            <p>desde hace 2 anos</p>
+                            <p>{displayName} te uniste a Fixter </p>
+                            <p>recientemente</p>
                         </div>
                     </div>
                     <div className="data_suscript">

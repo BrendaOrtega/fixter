@@ -3,13 +3,15 @@ import {LoginDisplay} from './LoginDisplay';
 import {RegisterDisplay} from './RegisterDisplay';
 import './Login.css';
 import firebase from '../../firebase';
+import toastr from 'toastr';
 //redux
 import {connect} from 'react-redux';
 import {loginAction} from '../../redux/actions/userAction';
 
 
 const codigos = {
-        "auth/wrong-password":"Tu password está mal"
+    "auth/wrong-password":"Tu contraseña es incorrecta",
+    "auth/email-already-in-use":"Este usuario ya esta registrado"
 };
 
 class Login extends Component {
@@ -35,6 +37,9 @@ class Login extends Component {
     //         this.props.history.push("/perfil");
     //     }
     // };
+    componentDidMount () {
+        window.scroll(0, 0)
+    }
 
     componentWillMount(){
         firebase.auth().getRedirectResult()
@@ -45,7 +50,7 @@ class Login extends Component {
             this.props.loginAction(result.user);
             this.props.history.push("/perfil");
         }).catch(function(error) {
-            console.log(error)
+            // console.log(error)
         });
     }
 
@@ -67,11 +72,13 @@ class Login extends Component {
         const nuevoRegistro = this.state.nuevoRegistro;
         nuevoRegistro[input] = value;
         this.setState({nuevoRegistro});
+
         // console.log(login);
         if(nuevoRegistro.pass !== nuevoRegistro.pass2)
             this.setState({error:"tu contrasena no coincide"});
         else
             this.setState({error:null});
+
     };
 
     onLogin = (e) => {
@@ -86,8 +93,8 @@ class Login extends Component {
                 this.props.history.push("/perfil");
             })
             .catch(e=>{
-                console.log(e);
-                alert(codigos[e.code]);
+                // console.log(e);
+                alert(codigos[e.code] );
             });
 
     };
@@ -112,7 +119,11 @@ class Login extends Component {
             .then(s=>{
                 this.setState({registro:false});
             })
-            .catch(e=>console.log(e));
+            .catch(e=>
+            {
+                // console.log(e);
+                alert(codigos[e.code] );
+            });
     };
     render() {
         const {registro, nuevoRegistro} = this.state;

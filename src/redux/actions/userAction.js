@@ -2,7 +2,6 @@
  * Created by brendaortega on 14/01/18.
  */
 //User login
-import firebase from '../../firebase';
 
 
     //grupito

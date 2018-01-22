@@ -13,7 +13,8 @@
     "react-scripts": "1.0.17",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "thunk": "0.0.1"
+    "thunk": "0.0.1",
+    "toastr": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

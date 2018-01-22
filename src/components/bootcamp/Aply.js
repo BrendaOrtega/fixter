@@ -41,7 +41,7 @@ class Aply extends Component {
     validateForm = () => {
         let newAply = this.state.newAply;
         console.log(newAply)
-        let errors = this.state.errors;
+        // let errors = this.state.errors;
         let isOk = true;
         return isOk;
     };
