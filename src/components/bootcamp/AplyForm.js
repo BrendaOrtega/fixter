@@ -22,13 +22,13 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                         <div className="formgroup">
                             <div className="inp">
                                 <FontAwesome name="envelope" />
-                                <input type="email" value={email} onChange={onChangeAply} name="email" className="formcontrol" placeholder="Email"  required data-validation-required-message="Porfavor ingresa tu e-mail"/>
+                                <input type="email" value={email} onChange={onChangeAply} name="email" className="formcontrol" placeholder="E-mail"  required data-validation-required-message="Porfavor ingresa tu e-mail"/>
                                 <p className="help-block text-danger"></p></div>
                         </div>
                         <div className="formgroup">
                             <div className="inp">
                                 <FontAwesome name="user" />
-                                <input type="tel" value={telefono} onChange={onChangeAply} name="tel" className="formcontrol" placeholder="Telefono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
+                                <input type="tel" value={telefono} onChange={onChangeAply} name="tel" className="formcontrol" placeholder="Teléfono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
                                 <p className="help-block text-danger"></p></div>
                         </div>
                         <div className="formgroup">
@@ -37,7 +37,7 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                                     <option  default value="Bootcamp">Bootcamp</option>
                                     <optgroup  label='Febrero-Abril'>
                                         <option value="FullStack Febrero">FullStack-Path </option>
-                                        <option value="Introducción a la programación Febrero">Introducción al Diseño Web </option>
+                                        <option value="Introducción a la programación Febrero">Intro al Código </option>
                                     </optgroup>
                                     <optgroup  label='Mayo-Julio'>
                                         <option value="Mobile-Path Mayo">Mobile-Path</option>
@@ -54,7 +54,7 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                         <hr className="division"/>
                         <br/>
                         <div className="formgroup">
-                            <label htmlFor="">Quieres aplicar para una beca de descuento?</label>
+                            <label htmlFor="">¿Quieres aplicar para una beca de descuento?</label>
                             <br/>
                             <br/>
                             <div className='option'>
