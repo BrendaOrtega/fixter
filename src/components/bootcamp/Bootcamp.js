@@ -44,19 +44,19 @@ class Bootcamp extends Component {
                         imagen="https://images.pexels.com/photos/209151/pexels-photo-209151.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"27 de Febrero"}
                         dia={"Todos los días"}
-                        horario={"4 pm a 6:30 pm"}
+                        horario={"4:00 pm a 6:30 pm"}
                         precio={"6,000.00"}
                         temario={temario_full}
                     />
                     <CardCampDisplay
-                        nombre={"Intro al Diseño web"}
+                        nombre={"Intro al Código"}
                         descript="Si nunca has programado, este curso es para ti! Aprenderás a programar desde cero,
                         dominando HTML, CSS y algoritmia. Entenderás la lógica del código de manera sencilla y profesional. "
                         imagen="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"25 de Febrero"}
                         precio={"6,000.00"}
                         dia={"Todos los sábados"}
-                        horario={"9 am a 3:00 pm"}
+                        horario={"9:00 am a 3:00 pm"}
                         temario={temario_intro}
                     />
                     <CardCampDisplay
@@ -69,7 +69,7 @@ class Bootcamp extends Component {
                         fecha={"19 de Mayo"}
                         precio={"6,000.00"}
                         dia={"Todos los sábados"}
-                        horario={"9 am a 3:00 pm"}
+                        horario={"9:00 am a 3:00 pm"}
                         temario={temario_front}
 
                     />
@@ -98,7 +98,7 @@ class Bootcamp extends Component {
                         fecha={"8 de Septiembre"}
                         precio={"6,000.00"}
                         dia={"Todos los sábados"}
-                        horario={"9 am a 3:00 pm"}
+                        horario={"9:00 am a 3:00 pm"}
                         temario={temario_front}
 
                     />
@@ -111,7 +111,7 @@ class Bootcamp extends Component {
                         fecha={"8 de Septiembre"}
                         precio={"6,000.00"}
                         dia={"Todos los sábados"}
-                        horario={"9 am a 3:00 pm"}
+                        horario={"9:00 am a 3:00 pm"}
                         temario={temario_back}
                     />
                 </div>
