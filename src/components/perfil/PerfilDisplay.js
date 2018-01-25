@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import {Link} from 'react-router-dom';
 import camp from '../../assets/bootcamp.png';
 import user from '../../assets/user.png';
@@ -32,7 +32,11 @@ export const PerfilDisplay = ({photoURL, displayName, email, isLogged}) => {
                 </div>
                 <div className="perfil_progress">
                     <div>
+                        <div style={{display:"flex"}}>
                         <h2>Bootcamp</h2>
+                        <Link to="/aply">
+                            <button style={{marginTop:"20px", marginLeft:"10px"}} className="btn_pay">Aplicar</button>
+                        </Link></div>
                         <hr className="division"/>
                         <div className="box_courses">
                             <div className="crs opacity">
