@@ -42,7 +42,7 @@ class Bootcamp extends Component {
                         descript="Conviertete en desarrollador full-stack en 11 semanas. Aprende a desarrollar aplicaciones web utilizando ReactJs (la librería de Facebook), construye y estructura el
                         backend con NodeJs y MongoDB, y crea tu propia API. "
                         imagen="https://images.pexels.com/photos/209151/pexels-photo-209151.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
-                        fecha={"27 de Febrero"}
+                        fecha={"26 de Febrero"}
                         dia={"Todos los días"}
                         horario={"4:00 pm a 6:30 pm"}
                         precio={"6,000.00"}
@@ -53,7 +53,7 @@ class Bootcamp extends Component {
                         descript="Si nunca has programado, este curso es para ti! Aprenderás a programar desde cero,
                         dominando HTML, CSS y algoritmia. Entenderás la lógica del código de manera sencilla y profesional. "
                         imagen="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
-                        fecha={"25 de Febrero"}
+                        fecha={"24 de Febrero"}
                         precio={"6,000.00"}
                         dia={"Todos los sábados"}
                         horario={"9:00 am a 3:00 pm"}
