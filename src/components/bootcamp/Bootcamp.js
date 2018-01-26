@@ -40,7 +40,7 @@ class Bootcamp extends Component {
                     <CardCampDisplay
                         nombre={"FullStack Path"}
                         descript="Conviertete en desarrollador full-stack en 11 semanas. Aprende a desarrollar aplicaciones web utilizando ReactJs (la librería de Facebook), construye y estructura el
-                        backend con NodeJs y MongoDB, y crea tu propia API. "
+                        backend con Django, y crea tu propia API. "
                         imagen="https://images.pexels.com/photos/209151/pexels-photo-209151.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
                         fecha={"26 de Febrero"}
                         dia={"Todos los días"}
