@@ -35,7 +35,7 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                             <div className='option'>
                                 <select name="path"  onChange={onChangeAply} type="text" className='icon' id="name"  data-validation-required-message="Please complete">
                                     <option  default value="Bootcamp">Bootcamp</option>
-                                    <optgroup  label='Febrero-Abril'>
+                                    <optgroup  label='Marzo-Junio'>
                                         <option value="FullStack Febrero">FullStack-Path </option>
                                         <option value="Introducción a la programación Febrero">Intro al Código </option>
                                     </optgroup>
