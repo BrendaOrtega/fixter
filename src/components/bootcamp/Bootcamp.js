@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import './Bootcamp.css';
-import {Link} from 'react-router-dom';
-import {CardCampDisplay} from '../CardCamp/CardCampDisplay';
 import bootcamp from '../../assets/bootc.png';
-import laptop from '../../assets/laptop-camp.png';
-import temario_front from '../../assets/temarios/Front_Temario.pdf';
-import temario_back from '../../assets/temarios/Backend_Temario.pdf';
-import temario_intro from '../../assets/temarios/Intro_Temario.pdf';
-import temario_full from '../../assets/temarios/FullStack_Temario.pdf';
+import laptop from '../../assets/node.png';
+import temario_edition from '../../assets/temarios/Temario_IntensiveCamp.pdf';
 
 
 class Bootcamp extends Component {
@@ -24,19 +19,32 @@ class Bootcamp extends Component {
                 </div>
                 <div className="flexbox">
                     <div className="box">
-                        <h2>FixterCamp</h2>
-                        <p>Es el Bootcamp de código en donde puedes convertirte en desarrollador profesional en tan solo 8 semanas. Aprende diseno Foront-end, Back-end, desarrollo de Aplicaciones Móviles y Videojuegos,
-                            con herramientas pros como Angular, React, Django, NodeJs, Mongo DB, Firebase y más.
+                        <h2>FixterCamp | <i className="verde">Intensive Edition</i></h2>
+                        <p>
+                            Aprende a crear aplicaciones web FullStack con Javascript
+                            y NodeJs, obtén los fundamentos para manipular MongoDB,
+                            una de las bases de datos más populares y potentes,
+                            y conectarla con Express para crear una aplicación web
+                            y publicarla en internet. Todo en un curso intensivo y
+                            exclusivo de FixterCamp.
                         </p>
-                        <Link to="/aply">
-                            <button className="btn_start">Inscribirme</button>
-                        </Link>
+                        <p>
+                            Esta edición es 100% gratuita y exclusiva, por lo cual
+                            seleccionaremos a los 20 mejores candidatos que serán
+                            parte de este FixterCamp.
+                        </p>
+                        <p>Aplicaciones a partir del 31 de octubre</p>
+                        <a href={temario_edition} target="_blank">
+                            <button className="btn_ap mg">Descargar temario</button>
+                        </a>
+                      {/*  <button className="btn_ap">Próximamente</button>*/}
+
                     </div>
                     <div className="box">
                         <img src={laptop} alt=""/>
                     </div>
                 </div>
-                <div style={{backgroundColor:"#f4f5f9", paddingTop:"50px", paddingBottom:"50px"}}>
+               {/* <div style={{backgroundColor:"#f4f5f9", paddingTop:"50px", paddingBottom:"50px"}}>
                     <CardCampDisplay
                         nombre={"FullStack Path"}
                         descript="Conviertete en desarrollador full-stack en 11 semanas. Aprende a desarrollar aplicaciones web utilizando ReactJs (la librería de Facebook), construye y estructura el
@@ -112,9 +120,10 @@ class Bootcamp extends Component {
                         precio={"6,000.00"}
                         dia={"Todos los sábados"}
                         horario={"9:00 am a 3:00 pm"}
-                        temario={temario_back}
+                        temario={temario_front}
                     />
-                </div>
+                </div>*/}
+
             </div>
         );
     }

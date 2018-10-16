@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Perfil.css';
 import {PerfilDisplay} from './PerfilDisplay';
-import {connect} from 'react-redux';
-
 
 class Perfil extends Component {
 
@@ -13,9 +11,11 @@ class Perfil extends Component {
 
     componentWillMount() {
         let user = localStorage.getItem("user");
+        this.checkUser(user);
         // user = JSON.parse(user);
         if (user) {
             // console.log("si")
+
             this.setState({isLogged:true, user})
         }else{
             this.setState({isLogged:false})
@@ -36,12 +36,5 @@ class Perfil extends Component {
         );
     }
 }
-function mapStateToProps(state, ownProps){
-    // console.log(state);
-    return {
-        user:state.user.userObject,
-        isLogged:Object.keys(state.user.userObject).length > 0
-    }
-}
 
-export default Perfil = connect(mapStateToProps)(Perfil);
+export default Perfil ;
