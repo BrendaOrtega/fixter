@@ -47,7 +47,9 @@ export const ContactoDisplay = ({onSave, errors, onChangeMessage, name, email, t
                 </form>
             </div>
             <div className="map">
-                <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.991073252674!2d-98.80388768510838!3d20.134420023081226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a125b9171db7%3A0xf0ef93b8ffdce18c!2sFixTeR!5e0!3m2!1ses-419!2smx!4v1515716154291" style={{width:"100%",height:"370px", border:0 }}    ></iframe>
+
+                <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.782303580964!2d-99.1617016853634!3d19.42180978689044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff30f9d82a97%3A0x5088ee175f858072!2sC%C3%B3rdoba+51%2C+Roma+Nte.%2C+06700+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1541130338700" style={{width:"100%",height:"370px", border:0 }}    ></iframe>
+
             </div>
 
         </div>
