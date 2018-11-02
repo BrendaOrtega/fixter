@@ -35,7 +35,10 @@ class Bootcamp extends Component {
                         </p>
                         <p>Aplicaciones a partir del 31 de octubre</p>
                         <a href={temario_edition} target="_blank">
-                            <button className="btn_ap mg">Descargar temario</button>
+                            <button style={{backgroundColor:"#d7c048"}} className="btn_ap mg">Descargar temario</button>
+                        </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaKfYEDppWgqNGSrBJd0CGaYVY0Q7yl0yUS_evCzL6R7fWBQ/viewform" target="_blank">
+                            <button className="btn_ap mg">Aplicar</button>
                         </a>
                       {/*  <button className="btn_ap">Próximamente</button>*/}
 
