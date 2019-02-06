@@ -7,7 +7,7 @@ let config = {
     authDomain: "fixter-67253.firebaseapp.com",
     databaseURL: "https://fixter-67253.firebaseio.com",
     projectId: "fixter-67253",
-    storageBucket: "",
+    storageBucket: "fixter-67253.appspot.com",
     messagingSenderId: "590084716663"
 };
 firebase.initializeApp(config);

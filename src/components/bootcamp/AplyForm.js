@@ -3,63 +3,50 @@ import './Aply.css';
 import FontAwesome from 'react-fontawesome';
 
 
-export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, razon, path }) => {
-
+export const AplyForm = ({ onSave, errors, onChangeAply, name, email, telefono, razon, courses }) => {
     return (
         <div >
             <div className="aplicacion">
-
                 <div className="card_form">
                     <h2>Inscribete a nuestro Bootcamp ahora</h2>
-                    <hr className="division"/>
-                    <form onSubmit={onSave}  method="post" name="sentMessage" action="">
+                    <hr className="division" />
+                    <form onSubmit={onSave} method="post" name="sentMessage" action="">
                         <div className="formgroup">
                             <div className="inp">
                                 <FontAwesome name="user" />
-                                <input type="text" value={name} onChange={onChangeAply} name="nombre" className="formcontrol" placeholder="Nombre" required data-validation-required-message="Porfavor ingresa tu nombre"/>
+                                <input type="text" value={name} onChange={onChangeAply} name="nombre" className="formcontrol" placeholder="Nombre" required data-validation-required-message="Porfavor ingresa tu nombre" />
                                 <p className="help-block text-danger"></p></div>
                         </div>
                         <div className="formgroup">
                             <div className="inp">
                                 <FontAwesome name="envelope" />
-                                <input type="email" value={email} onChange={onChangeAply} name="email" className="formcontrol" placeholder="E-mail"  required data-validation-required-message="Porfavor ingresa tu e-mail"/>
+                                <input type="email" value={email} onChange={onChangeAply} name="email" className="formcontrol" placeholder="E-mail" required data-validation-required-message="Porfavor ingresa tu e-mail" />
                                 <p className="help-block text-danger"></p></div>
                         </div>
                         <div className="formgroup">
                             <div className="inp">
                                 <FontAwesome name="user" />
-                                <input type="tel" value={telefono} onChange={onChangeAply} name="tel" className="formcontrol" placeholder="Teléfono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
+                                <input type="tel" value={telefono} onChange={onChangeAply} name="tel" className="formcontrol" placeholder="Teléfono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico" />
                                 <p className="help-block text-danger"></p></div>
                         </div>
                         <div className="formgroup">
                             <div className='option'>
-                                <select name="path"  onChange={onChangeAply} type="text" className='icon' id="name"  data-validation-required-message="Please complete">
-                                    <option  default value="Bootcamp">Bootcamp</option>
-                                    <optgroup  label='Marzo-Junio'>
-                                        <option value="FullStack Febrero">FullStack-Path </option>
-                                        <option value="Introducción a la programación Febrero">Intro al Código </option>
-                                    </optgroup>
-                                    <optgroup  label='Mayo-Julio'>
-                                        <option value="Mobile-Path Mayo">Mobile-Path</option>
-                                        <option value="Frontend Mayo">Frontend-Path</option>
-                                    </optgroup>
-                                    <optgroup  label='Septiembre-Noviembre'>
-                                        <option value="Frontend-Path Septiembre">Frontend-Path </option>
-                                        <option value="Backend-Path Septiembre">Backend-Path</option>
-                                    </optgroup>
+                                <select name="path" onChange={onChangeAply} type="text" className='icon' id="name" data-validation-required-message="Please complete">
+                                    <option>Selecciona un curso..</option>
+                                    {courses && courses.map(course => <option key={course.id} value={course.id}>{course.courseName}</option>)}
                                 </select>
                             </div>
                         </div>
-                        <br/>
-                        <hr className="division"/>
-                        <br/>
+                        <br />
+                        <hr className="division" />
+                        <br />
                         <div className="formgroup">
                             <label htmlFor="">¿Quieres aplicar para una beca de descuento?</label>
-                            <br/>
-                            <br/>
+                            <br />
+                            <br />
                             <div className='option'>
                                 <select onChange={onChangeAply} name="beca" type="text" className='icon' id="name" required data-validation-required-message="Please enter your name.">
-                                    <option  default value="Beca">Beca</option>
+                                    <option default value="Beca">Beca</option>
                                     <option value="Si">si </option>
                                     <option value="No">no</option>
                                 </select>
@@ -71,10 +58,10 @@ export const AplyForm = ({onSave, errors, onChangeAply, name, email, telefono, r
                                 <div className="msj">
                                     <FontAwesome name="commenting" /></div>
 
-                                <textarea value={razon} onChange={onChangeAply} type="text" name="mensaje" className="formcontrol" placeholder="Porque deberías obtenerla? Escribe un breve mensaje"/>
+                                <textarea value={razon} onChange={onChangeAply} type="text" name="mensaje" className="formcontrol" placeholder="Porque deberías obtenerla? Escribe un breve mensaje" />
                                 <p className="help-block text-danger"></p></div>
                         </div>
-                        <br/>
+                        <br />
                         <button className="btn_start">Enviar</button>
                     </form>
                 </div>
